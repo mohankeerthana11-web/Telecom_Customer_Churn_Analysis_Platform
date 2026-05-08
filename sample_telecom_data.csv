@@ -1,0 +1,1001 @@
+CustomerID,Gender,SeniorCitizen,Partner,Dependents,Tenure,PhoneService,InternetService,OnlineSecurity,TechSupport,Contract,PaperlessBilling,PaymentMethod,MonthlyCharges,TotalCharges,Churn
+CUS-0001,Female,1,No,No,52.0,Yes,DSL,No,No,Month-to-month,No,Mailed check,30.83,1497.28,No
+CUS-0002,Female,0,No,No,15.0,Yes,Fiber optic,No,No,Two year,No,Credit card,92.93,1436.47,Yes
+CUS-0003,Female,0,Yes,No,61.0,Yes,DSL,Yes,No,Month-to-month,Yes,Mailed check,30.91,1927.78,No
+CUS-0004,Female,0,Yes,Yes,21.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Bank transfer,81.02,1799.38,Yes
+CUS-0005,Male,0,No,No,24.0,Yes,DSL,Yes,No,Two year,Yes,Credit card,34.91,796.6,No
+CUS-0006,Male,0,Yes,No,3.0,Yes,DSL,No,No,One year,Yes,Mailed check,30.11,95.09,No
+CUS-0007,Female,1,No,Yes,22.0,Yes,DSL,No,Yes,Month-to-month,Yes,Credit card,32.95,752.15,No
+CUS-0008,Male,0,Yes,No,53.0,Yes,DSL,No,No,Month-to-month,Yes,Credit card,30.05,1536.21,Yes
+CUS-0009,Female,0,Yes,Yes,2.0,Yes,No,No internet service,No internet service,Two year,No,Credit card,29.84,60.22,Yes
+CUS-0010,Female,0,Yes,Yes,30.0,Yes,DSL,No,Yes,One year,Yes,Electronic check,23.44,653.59,No
+CUS-0011,Male,0,No,No,38.0,Yes,Fiber optic,No,Yes,Month-to-month,No,Mailed check,85.57,3220.81,No
+CUS-0012,Male,0,Yes,Yes,2.0,No,DSL,Yes,Yes,Month-to-month,No,Electronic check,23.18,49.89,Yes
+CUS-0013,Male,0,Yes,No,64.0,Yes,DSL,No,No,Two year,No,Electronic check,23.91,1506.12,No
+CUS-0014,Female,0,No,No,60.0,Yes,No,No internet service,No internet service,Month-to-month,No,Mailed check,39.46,2528.39,No
+CUS-0015,Male,1,No,Yes,21.0,Yes,DSL,No,Yes,Two year,No,Credit card,23.06,,No
+CUS-0016,Female,0,No,No,33.0,Yes,No,No internet service,No internet service,Month-to-month,No,Electronic check,25.39,786.24,No
+CUS-0017,Male,0,No,Yes,58.0,Yes,DSL,No,No,Two year,No,Electronic check,31.81,1874.91,No
+CUS-0018,Male,0,Yes,No,22.0,Yes,Fiber optic,Yes,No,Month-to-month,Yes,Electronic check,92.2,2030.83,Yes
+CUS-0019,Female,0,Yes,No,49.0,Yes,Fiber optic,Yes,No,Month-to-month,No,Credit card,83.08,3988.4,No
+CUS-0020,Female,0,Yes,Yes,59.0,Yes,No,No internet service,No internet service,Two year,No,Electronic check,35.87,1955.33,No
+CUS-0021,Female,0,Yes,Yes,42.0,Yes,Fiber optic,No,No,Month-to-month,No,Bank transfer,95.7,3952.44,Yes
+CUS-0022,Female,0,Yes,No,60.0,Yes,Fiber optic,No,Yes,Month-to-month,No,Mailed check,84.75,4650.5,Yes
+CUS-0023,Female,0,No,No,15.0,No,DSL,No,Yes,Month-to-month,Yes,Bank transfer,25.77,355.53,Yes
+CUS-0024,Female,0,Yes,Yes,62.0,No,DSL,No,No,Month-to-month,Yes,Credit card,38.76,2362.71,No
+CUS-0025,Female,0,Yes,No,62.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Electronic check,36.51,2175.51,No
+CUS-0026,Female,0,Yes,No,47.0,Yes,DSL,No,No,One year,Yes,Mailed check,33.96,1731.96,No
+CUS-0027,Male,1,No,No,62.0,Yes,Fiber optic,No,No,Month-to-month,No,Electronic check,81.64,4935.85,No
+CUS-0028,Female,0,No,No,51.0,Yes,Fiber optic,Yes,No,Month-to-month,Yes,Credit card,88.37,4739.3,No
+CUS-0029,Female,0,Yes,No,55.0,Yes,DSL,No,No,Month-to-month,Yes,Mailed check,31.19,1725.83,No
+CUS-0030,Male,1,No,No,64.0,No,No,No internet service,No internet service,One year,Yes,Bank transfer,23.75,1582.04,No
+CUS-0031,Female,0,No,No,3.0,Yes,Fiber optic,No,Yes,One year,Yes,Mailed check,88.96,254.08,Yes
+CUS-0032,Male,1,No,No,51.0,Yes,Fiber optic,Yes,Yes,Month-to-month,No,Electronic check,92.02,5107.79,No
+CUS-0033,Male,0,No,Yes,7.0,Yes,No,No internet service,No internet service,Month-to-month,No,Mailed check,26.55,186.97,No
+CUS-0034,Female,0,No,No,21.0,No,DSL,Yes,No,Two year,Yes,Credit card,35.62,797.59,No
+CUS-0035,Male,0,No,No,39.0,Yes,DSL,No,Yes,Month-to-month,No,Credit card,36.81,1396.84,No
+CUS-0036,Female,0,No,No,18.0,Yes,Fiber optic,No,No,Two year,No,Mailed check,86.47,1432.01,Yes
+CUS-0037,Male,0,Yes,No,4.0,Yes,DSL,No,No,Two year,Yes,Credit card,36.77,152.19,No
+CUS-0038,Male,0,Yes,No,60.0,Yes,Fiber optic,No,No,One year,Yes,Credit card,82.07,4439.42,No
+CUS-0039,Male,0,No,No,14.0,Yes,No,No internet service,No internet service,Month-to-month,No,Credit card,36.75,511.96,Yes
+CUS-0040,Female,0,Yes,No,9.0,No,Fiber optic,Yes,No,Two year,Yes,Bank transfer,83.06,701.61,Yes
+CUS-0041,Female,0,Yes,No,53.0,Yes,Fiber optic,No,Yes,One year,Yes,Electronic check,81.66,4438.24,No
+CUS-0042,Male,1,No,Yes,2.0,Yes,No,No internet service,No internet service,One year,Yes,Credit card,32.84,,No
+CUS-0043,Male,0,Yes,No,60.0,Yes,Fiber optic,No,Yes,Month-to-month,No,Mailed check,89.44,5328.19,No
+CUS-0044,Female,0,No,No,71.0,Yes,Fiber optic,No,No,Month-to-month,No,Credit card,98.16,7411.91,Yes
+CUS-0045,Female,0,No,Yes,44.0,Yes,Fiber optic,No,No,Month-to-month,No,Bank transfer,87.26,3845.42,No
+CUS-0046,Male,0,No,No,8.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Mailed check,25.74,205.75,Yes
+CUS-0047,Male,1,Yes,No,47.0,Yes,Fiber optic,Yes,No,One year,No,Electronic check,90.01,4594.65,No
+CUS-0048,Female,0,Yes,No,35.0,Yes,Fiber optic,Yes,No,Month-to-month,Yes,Mailed check,89.12,3362.48,No
+CUS-0049,Female,0,Yes,Yes,36.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Mailed check,,1023.37,No
+CUS-0050,Female,0,Yes,Yes,50.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Mailed check,93.87,4502.25,Yes
+CUS-0051,Female,0,No,No,4.0,Yes,Fiber optic,Yes,No,One year,Yes,Mailed check,95.19,384.19,No
+CUS-0052,Female,0,No,Yes,2.0,Yes,No,No internet service,No internet service,Two year,No,Credit card,37.06,70.03,No
+CUS-0053,Male,0,Yes,No,6.0,Yes,Fiber optic,No,Yes,Month-to-month,No,Electronic check,99.46,590.07,No
+CUS-0054,Female,0,No,No,54.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Credit card,25.33,1363.5,No
+CUS-0055,Male,0,No,Yes,4.0,Yes,No,No internet service,No internet service,Month-to-month,No,Bank transfer,34.32,146.39,No
+CUS-0056,Female,0,Yes,No,54.0,Yes,Fiber optic,No,Yes,One year,No,Bank transfer,87.89,5121.97,No
+CUS-0057,Male,1,No,No,63.0,Yes,Fiber optic,Yes,Yes,One year,No,Mailed check,93.54,5792.39,No
+CUS-0058,Female,1,Yes,No,18.0,Yes,No,No internet service,No internet service,Two year,Yes,Credit card,29.52,480.11,No
+CUS-0059,Female,0,No,No,44.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Credit card,39.88,1881.68,No
+CUS-0060,Male,0,Yes,No,34.0,Yes,Fiber optic,Yes,No,Two year,Yes,Electronic check,94.58,3006.23,No
+CUS-0061,Male,0,No,No,62.0,Yes,DSL,Yes,No,Month-to-month,No,Electronic check,39.05,2480.12,No
+CUS-0062,Female,0,No,No,,No,Fiber optic,No,No,One year,Yes,Electronic check,96.7,1225.18,No
+CUS-0063,Female,1,Yes,No,48.0,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Credit card,98.06,4612.28,Yes
+CUS-0064,Female,0,Yes,No,15.0,Yes,Fiber optic,Yes,No,Two year,Yes,Electronic check,96.29,1584.73,No
+CUS-0065,Female,0,Yes,No,62.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Electronic check,89.18,5087.59,No
+CUS-0066,Female,0,Yes,No,40.0,No,Fiber optic,No,No,One year,No,Electronic check,85.04,3349.69,Yes
+CUS-0067,Male,0,No,No,53.0,Yes,Fiber optic,No,No,Two year,No,Mailed check,,4454.05,Yes
+CUS-0068,Male,0,No,Yes,24.0,Yes,DSL,No,No,Month-to-month,No,Bank transfer,20.4,529.27,No
+CUS-0069,Female,0,Yes,No,26.0,Yes,Fiber optic,No,No,Month-to-month,No,Bank transfer,90.48,2526.25,Yes
+CUS-0070,Male,0,No,Yes,60.0,Yes,Fiber optic,No,No,Two year,Yes,Credit card,90.1,5122.4,No
+CUS-0071,Male,0,Yes,No,41.0,Yes,DSL,No,No,Month-to-month,Yes,Credit card,30.51,1146.13,Yes
+CUS-0072,Male,0,Yes,No,29.0,Yes,DSL,No,No,Month-to-month,Yes,Mailed check,39.48,1174.03,Yes
+CUS-0073,Female,0,No,No,15.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Bank transfer,98.23,1425.23,No
+CUS-0074,Male,0,No,No,45.0,Yes,Fiber optic,No,No,One year,Yes,Electronic check,83.23,3874.25,No
+CUS-0075,Female,0,Yes,No,65.0,Yes,DSL,No,Yes,Month-to-month,No,Electronic check,27.38,1613.16,No
+CUS-0076,Male,0,Yes,No,71.0,Yes,No,No internet service,No internet service,Month-to-month,No,Credit card,28.48,1873.82,No
+CUS-0077,Female,0,Yes,No,9.0,Yes,Fiber optic,Yes,No,Month-to-month,No,Bank transfer,87.21,814.15,No
+CUS-0078,Male,0,No,No,1.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Credit card,35.97,33.9,Yes
+CUS-0079,Female,0,No,No,8.0,Yes,Fiber optic,No,No,Two year,Yes,Credit card,90.48,775.61,No
+CUS-0080,Female,0,No,No,63.0,No,Fiber optic,No,Yes,Two year,Yes,Electronic check,91.44,5252.15,Yes
+CUS-0081,Male,1,No,Yes,11.0,Yes,No,No internet service,No internet service,One year,No,Electronic check,37.06,384.46,No
+CUS-0082,Female,0,Yes,No,8.0,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Bank transfer,96.12,845.63,Yes
+CUS-0083,Female,0,Yes,No,35.0,Yes,Fiber optic,No,No,Two year,Yes,Credit card,82.64,2853.69,Yes
+CUS-0084,Female,0,Yes,No,35.0,Yes,DSL,Yes,No,Month-to-month,Yes,Mailed check,34.28,1248.5,No
+CUS-0085,Female,0,Yes,Yes,33.0,No,Fiber optic,No,No,Month-to-month,Yes,Bank transfer,88.71,2741.63,Yes
+CUS-0086,Female,0,Yes,No,5.0,Yes,DSL,Yes,No,Two year,Yes,Credit card,25.89,132.29,No
+CUS-0087,Female,0,Yes,Yes,41.0,Yes,DSL,Yes,No,One year,No,Bank transfer,21.0,899.94,No
+CUS-0088,Female,0,No,No,28.0,Yes,DSL,No,No,One year,No,Bank transfer,29.74,801.82,No
+CUS-0089,Female,0,No,No,7.0,Yes,DSL,No,Yes,One year,Yes,Bank transfer,27.11,202.25,No
+CUS-0090,Male,0,Yes,No,12.0,Yes,No,No internet service,No internet service,Month-to-month,No,Mailed check,25.03,306.57,No
+CUS-0091,Male,0,Yes,Yes,34.0,Yes,DSL,Yes,No,Month-to-month,No,Mailed check,33.89,1126.71,Yes
+CUS-0092,Female,0,No,No,33.0,Yes,Fiber optic,No,No,One year,No,Electronic check,95.39,,No
+CUS-0093,Female,0,No,No,48.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Electronic check,24.9,1213.55,Yes
+CUS-0094,Male,0,No,No,23.0,Yes,Fiber optic,Yes,No,Month-to-month,Yes,Credit card,80.99,1738.16,No
+CUS-0095,Male,0,No,No,62.0,No,DSL,Yes,No,One year,No,Bank transfer,36.98,2248.16,No
+CUS-0096,Male,0,Yes,Yes,37.0,Yes,Fiber optic,No,No,One year,Yes,Credit card,80.2,2874.48,No
+CUS-0097,Female,0,Yes,No,44.0,Yes,Fiber optic,No,No,Month-to-month,No,Electronic check,98.74,4258.45,No
+CUS-0098,Male,0,Yes,No,35.0,Yes,Fiber optic,No,Yes,Two year,No,Mailed check,92.55,3408.41,Yes
+CUS-0099,Female,0,Yes,No,65.0,Yes,Fiber optic,No,Yes,Two year,Yes,Electronic check,86.44,5598.98,No
+CUS-0100,Female,0,Yes,Yes,47.0,Yes,No,No internet service,No internet service,One year,Yes,Credit card,24.93,1274.89,No
+CUS-0101,Male,0,No,No,3.0,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Electronic check,80.18,230.61,Yes
+CUS-0102,Female,0,Yes,No,1.0,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Credit card,84.71,83.28,Yes
+CUS-0103,Female,0,No,No,5.0,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Credit card,82.75,437.5,Yes
+CUS-0104,Female,0,Yes,Yes,14.0,Yes,DSL,Yes,No,Month-to-month,Yes,Credit card,32.24,455.51,No
+CUS-0105,Female,0,Yes,No,27.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Credit card,23.33,635.83,Yes
+CUS-0106,Male,1,Yes,Yes,9.0,Yes,DSL,No,No,Month-to-month,Yes,Electronic check,30.57,250.55,No
+CUS-0107,Male,0,Yes,No,15.0,Yes,DSL,No,No,Month-to-month,No,Credit card,,467.33,Yes
+CUS-0108,Female,1,Yes,Yes,42.0,Yes,No,No internet service,No internet service,Two year,Yes,Credit card,25.96,1040.33,No
+CUS-0109,Female,0,No,No,51.0,Yes,Fiber optic,Yes,No,Month-to-month,No,Bank transfer,80.7,4526.72,No
+CUS-0110,Male,0,No,No,63.0,Yes,Fiber optic,No,Yes,One year,No,Credit card,80.75,4892.26,No
+CUS-0111,Female,0,No,No,52.0,Yes,Fiber optic,Yes,Yes,One year,Yes,Electronic check,80.53,4509.58,No
+CUS-0112,Male,1,Yes,Yes,4.0,Yes,No,No internet service,No internet service,Month-to-month,No,Credit card,34.78,144.02,Yes
+CUS-0113,Female,0,Yes,No,23.0,Yes,Fiber optic,No,No,Two year,Yes,Mailed check,86.36,1923.08,Yes
+CUS-0114,Female,0,No,No,15.0,Yes,No,No internet service,No internet service,One year,No,Mailed check,35.93,543.64,No
+CUS-0115,Male,0,Yes,No,43.0,Yes,DSL,No,No,Month-to-month,Yes,Credit card,28.63,1314.94,No
+CUS-0116,Male,0,Yes,No,29.0,Yes,Fiber optic,No,No,One year,Yes,Mailed check,89.06,2780.77,No
+CUS-0117,Male,1,No,Yes,36.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Mailed check,30.26,1015.37,No
+CUS-0118,Male,0,Yes,No,13.0,Yes,DSL,No,Yes,One year,Yes,Electronic check,34.26,431.09,No
+CUS-0119,Female,0,No,Yes,32.0,Yes,Fiber optic,Yes,Yes,Month-to-month,Yes,Bank transfer,85.47,2644.91,Yes
+CUS-0120,Male,0,Yes,No,71.0,Yes,DSL,No,Yes,Two year,Yes,Mailed check,22.43,1446.67,No
+CUS-0121,Female,1,No,Yes,59.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Mailed check,91.12,5481.71,No
+CUS-0122,Male,1,Yes,No,28.0,Yes,Fiber optic,No,Yes,One year,Yes,Bank transfer,86.54,2595.07,No
+CUS-0123,Male,0,Yes,No,66.0,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Bank transfer,88.85,5725.21,No
+CUS-0124,Female,0,No,No,42.0,Yes,DSL,No,No,One year,Yes,Mailed check,32.94,1449.9,No
+CUS-0125,Male,1,Yes,No,45.0,Yes,DSL,No,No,One year,Yes,Credit card,29.88,1378.94,No
+CUS-0126,Male,0,Yes,No,62.0,Yes,DSL,Yes,Yes,Month-to-month,Yes,Mailed check,32.41,1959.45,No
+CUS-0127,Male,0,No,No,57.0,Yes,DSL,No,Yes,One year,No,Credit card,30.88,1633.8,No
+CUS-0128,Male,1,Yes,Yes,6.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Credit card,94.8,592.61,Yes
+CUS-0129,Female,0,No,No,28.0,Yes,No,No internet service,No internet service,Two year,No,Credit card,34.12,1023.11,No
+CUS-0130,Female,0,Yes,Yes,28.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Bank transfer,,2633.42,Yes
+CUS-0131,Male,0,Yes,No,44.0,Yes,Fiber optic,No,No,Two year,No,Mailed check,93.58,3720.49,No
+CUS-0132,Male,1,Yes,No,30.0,Yes,No,No internet service,No internet service,Two year,Yes,Mailed check,37.47,1060.3,No
+CUS-0133,Male,1,Yes,No,62.0,Yes,Fiber optic,Yes,No,Month-to-month,Yes,Electronic check,88.65,5023.05,No
+CUS-0134,Female,1,No,Yes,62.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Bank transfer,28.26,1776.78,No
+CUS-0135,Female,0,Yes,No,1.0,Yes,Fiber optic,Yes,No,Month-to-month,Yes,Electronic check,95.28,100.17,No
+CUS-0136,Female,1,No,No,27.0,Yes,DSL,No,Yes,Two year,Yes,Electronic check,31.65,787.99,No
+CUS-0137,Female,1,Yes,No,62.0,Yes,DSL,Yes,No,Month-to-month,Yes,Credit card,21.42,1417.91,No
+CUS-0138,Male,0,Yes,No,3.0,Yes,Fiber optic,No,No,Month-to-month,No,Bank transfer,97.84,296.78,Yes
+CUS-0139,Male,0,Yes,No,70.0,Yes,DSL,Yes,Yes,Two year,Yes,Electronic check,20.62,1498.24,No
+CUS-0140,Male,0,Yes,Yes,27.0,Yes,DSL,No,No,Month-to-month,Yes,Mailed check,34.97,1033.21,No
+CUS-0141,Female,0,No,No,9.0,Yes,Fiber optic,No,Yes,One year,No,Electronic check,95.18,785.29,Yes
+CUS-0142,Male,0,No,No,62.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Bank transfer,99.06,6634.56,Yes
+CUS-0143,Female,0,No,Yes,37.0,No,Fiber optic,Yes,No,Month-to-month,No,Mailed check,81.08,2775.62,Yes
+CUS-0144,Female,0,No,Yes,51.0,Yes,DSL,No,No,Two year,Yes,Mailed check,31.94,1594.07,No
+CUS-0145,Male,0,Yes,Yes,44.0,No,Fiber optic,Yes,No,Month-to-month,No,Mailed check,88.56,4170.53,Yes
+CUS-0146,Male,0,No,No,24.0,No,Fiber optic,No,Yes,Month-to-month,Yes,Credit card,86.61,2247.53,Yes
+CUS-0147,Male,0,No,No,59.0,Yes,No,No internet service,No internet service,Two year,No,Mailed check,21.81,1288.43,No
+CUS-0148,Female,0,Yes,Yes,32.0,Yes,Fiber optic,Yes,No,Month-to-month,No,Credit card,91.25,2974.96,No
+CUS-0149,Female,0,Yes,No,52.0,Yes,No,No internet service,No internet service,Two year,Yes,Credit card,29.58,1602.19,No
+CUS-0150,Male,0,Yes,Yes,,Yes,Fiber optic,No,No,Two year,Yes,Electronic check,82.09,5428.3,No
+CUS-0151,Male,0,Yes,No,58.0,Yes,Fiber optic,Yes,No,Month-to-month,Yes,Electronic check,92.25,4945.48,No
+CUS-0152,Female,0,No,Yes,52.0,Yes,DSL,No,No,Month-to-month,No,Mailed check,34.76,1919.61,Yes
+CUS-0153,Male,0,No,No,12.0,Yes,Fiber optic,Yes,Yes,One year,Yes,Bank transfer,95.35,1139.92,No
+CUS-0154,Female,1,Yes,No,39.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Mailed check,98.11,3788.5,Yes
+CUS-0155,Female,0,Yes,No,2.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Electronic check,88.19,173.7,Yes
+CUS-0156,Male,0,Yes,No,3.0,Yes,Fiber optic,Yes,No,One year,Yes,Mailed check,99.06,297.73,No
+CUS-0157,Male,0,No,No,56.0,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Electronic check,97.31,5934.41,No
+CUS-0158,Male,1,No,No,59.0,Yes,DSL,No,Yes,Two year,No,Mailed check,,1544.62,No
+CUS-0159,Male,0,Yes,Yes,2.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Bank transfer,83.19,181.46,Yes
+CUS-0160,Female,1,Yes,Yes,2.0,No,DSL,No,No,Month-to-month,No,Mailed check,28.71,53.75,Yes
+CUS-0161,Female,0,No,No,54.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Bank transfer,28.04,1582.04,No
+CUS-0162,Female,1,Yes,Yes,1.0,Yes,DSL,No,No,Two year,Yes,Bank transfer,31.51,33.48,No
+CUS-0163,Male,0,Yes,Yes,19.0,Yes,DSL,No,No,One year,Yes,Mailed check,31.67,623.29,No
+CUS-0164,Female,1,No,No,2.0,Yes,Fiber optic,No,No,Two year,Yes,Bank transfer,95.0,194.06,No
+CUS-0165,Male,0,Yes,No,53.0,Yes,Fiber optic,No,Yes,Month-to-month,No,Bank transfer,90.2,4842.57,Yes
+CUS-0166,Male,0,No,No,44.0,Yes,Fiber optic,No,No,Month-to-month,No,Electronic check,82.1,3873.17,Yes
+CUS-0167,Male,0,Yes,Yes,32.0,Yes,DSL,No,Yes,Month-to-month,Yes,Electronic check,37.17,1265.96,No
+CUS-0168,Male,0,Yes,Yes,70.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Bank transfer,86.2,5578.18,Yes
+CUS-0169,Male,0,No,No,32.0,No,Fiber optic,No,No,One year,Yes,Credit card,99.43,3403.58,No
+CUS-0170,Male,1,No,Yes,,Yes,No,No internet service,No internet service,One year,No,Mailed check,22.36,1494.35,No
+CUS-0171,Female,1,Yes,Yes,55.0,Yes,No,No internet service,No internet service,Month-to-month,No,Bank transfer,39.17,2048.23,No
+CUS-0172,Male,0,No,No,56.0,Yes,Fiber optic,No,No,Two year,No,Mailed check,81.82,4920.77,No
+CUS-0173,Female,0,Yes,No,17.0,Yes,DSL,No,No,Month-to-month,Yes,Electronic check,24.62,412.85,No
+CUS-0174,Female,0,Yes,No,38.0,Yes,Fiber optic,Yes,Yes,Two year,Yes,Mailed check,80.93,3265.01,No
+CUS-0175,Male,0,No,Yes,24.0,Yes,DSL,No,No,Month-to-month,Yes,Bank transfer,34.1,779.67,Yes
+CUS-0176,Male,0,Yes,Yes,69.0,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Bank transfer,97.01,6029.58,Yes
+CUS-0177,Male,0,Yes,No,70.0,No,DSL,No,No,Month-to-month,Yes,Bank transfer,28.68,2005.78,No
+CUS-0178,Female,0,No,Yes,11.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Bank transfer,38.57,390.35,No
+CUS-0179,Male,0,No,No,16.0,Yes,DSL,Yes,Yes,One year,Yes,Credit card,31.81,534.85,No
+CUS-0180,Female,0,Yes,No,59.0,Yes,Fiber optic,No,No,Month-to-month,No,Credit card,92.6,5218.72,Yes
+CUS-0181,Male,0,No,No,70.0,Yes,Fiber optic,No,No,Month-to-month,No,Credit card,96.91,6707.24,Yes
+CUS-0182,Male,0,No,No,3.0,Yes,Fiber optic,Yes,No,One year,Yes,Bank transfer,85.94,236.53,No
+CUS-0183,Female,0,No,Yes,20.0,Yes,DSL,No,Yes,One year,Yes,Credit card,27.09,518.68,No
+CUS-0184,Female,1,No,No,59.0,Yes,No,No internet service,No internet service,Two year,Yes,Mailed check,38.12,2375.7,No
+CUS-0185,Male,0,Yes,No,36.0,Yes,Fiber optic,Yes,Yes,Month-to-month,No,Bank transfer,98.02,3282.83,No
+CUS-0186,Female,0,Yes,No,19.0,Yes,Fiber optic,No,No,One year,No,Electronic check,99.53,1946.73,Yes
+CUS-0187,Female,0,Yes,Yes,67.0,Yes,DSL,No,No,One year,No,Bank transfer,38.04,2761.46,No
+CUS-0188,Female,0,No,Yes,19.0,Yes,Fiber optic,No,No,Month-to-month,No,Mailed check,82.55,1624.86,No
+CUS-0189,Female,1,No,No,20.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Credit card,96.47,2049.42,Yes
+CUS-0190,Female,0,No,No,71.0,Yes,DSL,No,No,Month-to-month,Yes,Bank transfer,28.2,1845.62,Yes
+CUS-0191,Male,0,No,No,52.0,Yes,DSL,No,No,Month-to-month,Yes,Credit card,39.82,1967.41,Yes
+CUS-0192,Male,0,No,Yes,33.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Bank transfer,29.45,1048.54,Yes
+CUS-0193,Female,1,No,No,40.0,Yes,DSL,Yes,No,Month-to-month,No,Mailed check,31.08,1296.68,No
+CUS-0194,Male,1,No,No,39.0,Yes,DSL,Yes,No,One year,Yes,Bank transfer,30.6,1226.71,No
+CUS-0195,Male,0,Yes,No,1.0,Yes,Fiber optic,No,Yes,One year,Yes,Credit card,86.43,89.26,Yes
+CUS-0196,Female,0,Yes,No,11.0,Yes,Fiber optic,No,No,Two year,Yes,Credit card,81.5,881.12,No
+CUS-0197,Male,0,No,Yes,57.0,Yes,DSL,Yes,No,One year,No,Mailed check,37.91,1964.04,No
+CUS-0198,Female,1,No,No,50.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Bank transfer,96.05,5075.71,Yes
+CUS-0199,Female,0,No,Yes,23.0,Yes,DSL,Yes,Yes,Two year,No,Electronic check,22.79,542.91,No
+CUS-0200,Male,1,Yes,No,31.0,Yes,DSL,No,Yes,Two year,Yes,Bank transfer,35.54,1095.75,No
+CUS-0201,Female,0,Yes,No,42.0,Yes,DSL,No,No,Month-to-month,Yes,Mailed check,32.52,1475.04,No
+CUS-0202,Female,0,No,No,7.0,Yes,No,No internet service,No internet service,One year,Yes,Electronic check,28.18,190.8,No
+CUS-0203,Female,0,No,No,16.0,No,DSL,No,Yes,Two year,No,Mailed check,25.08,384.77,No
+CUS-0204,Female,0,Yes,Yes,60.0,Yes,DSL,Yes,No,Month-to-month,Yes,Bank transfer,37.19,2397.77,No
+CUS-0205,Female,0,Yes,No,2.0,Yes,Fiber optic,No,No,Two year,No,Electronic check,94.0,199.17,No
+CUS-0206,Male,0,Yes,No,1.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Mailed check,30.95,31.04,No
+CUS-0207,Male,0,Yes,Yes,48.0,Yes,DSL,No,Yes,Month-to-month,Yes,Credit card,32.19,1431.01,Yes
+CUS-0208,Female,0,No,Yes,12.0,Yes,Fiber optic,Yes,Yes,Month-to-month,No,Electronic check,81.82,925.89,Yes
+CUS-0209,Female,0,Yes,No,69.0,Yes,DSL,No,No,One year,Yes,Electronic check,29.48,2097.68,No
+CUS-0210,Male,0,Yes,Yes,37.0,Yes,Fiber optic,No,Yes,Two year,Yes,Mailed check,83.87,3031.84,Yes
+CUS-0211,Female,1,No,No,32.0,Yes,Fiber optic,No,Yes,Two year,No,Credit card,84.17,2874.69,Yes
+CUS-0212,Male,1,Yes,No,9.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Electronic check,93.23,914.58,Yes
+CUS-0213,Female,1,Yes,No,19.0,Yes,DSL,No,No,Month-to-month,No,Mailed check,38.23,770.77,No
+CUS-0214,Female,1,Yes,Yes,48.0,Yes,DSL,Yes,Yes,Two year,Yes,Electronic check,28.08,1314.83,No
+CUS-0215,Female,0,No,No,3.0,Yes,DSL,Yes,Yes,One year,Yes,Electronic check,24.15,76.63,No
+CUS-0216,Female,0,Yes,No,20.0,No,Fiber optic,No,Yes,Month-to-month,Yes,Electronic check,92.97,1804.15,Yes
+CUS-0217,Female,0,No,Yes,24.0,Yes,DSL,Yes,Yes,Month-to-month,No,Credit card,37.42,838.29,No
+CUS-0218,Female,0,No,No,54.0,Yes,Fiber optic,Yes,No,One year,Yes,Bank transfer,94.97,4649.79,No
+CUS-0219,Female,0,Yes,No,33.0,Yes,No,No internet service,No internet service,One year,No,Bank transfer,37.38,1205.35,No
+CUS-0220,Male,0,Yes,No,24.0,Yes,No,No internet service,No internet service,Month-to-month,No,Credit card,30.73,797.05,No
+CUS-0221,Male,0,Yes,Yes,36.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Credit card,35.04,1195.59,No
+CUS-0222,Male,0,Yes,No,38.0,Yes,Fiber optic,No,No,Two year,Yes,Mailed check,82.8,2961.71,No
+CUS-0223,Female,0,No,Yes,25.0,Yes,Fiber optic,No,Yes,One year,Yes,Electronic check,86.97,2378.55,Yes
+CUS-0224,Female,0,Yes,Yes,18.0,Yes,DSL,Yes,No,Month-to-month,Yes,Credit card,27.79,452.7,No
+CUS-0225,Female,0,Yes,No,66.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Mailed check,90.23,6295.56,No
+CUS-0226,Female,0,Yes,No,54.0,No,Fiber optic,No,No,One year,No,Bank transfer,98.58,5133.14,Yes
+CUS-0227,Female,1,No,Yes,35.0,Yes,Fiber optic,No,Yes,Month-to-month,No,Bank transfer,97.49,3096.52,Yes
+CUS-0228,Female,0,Yes,Yes,61.0,Yes,Fiber optic,Yes,No,Month-to-month,No,Bank transfer,82.69,5465.58,Yes
+CUS-0229,Female,0,Yes,Yes,41.0,Yes,DSL,No,No,Month-to-month,No,Bank transfer,23.46,892.54,Yes
+CUS-0230,Male,1,No,Yes,33.0,Yes,DSL,Yes,No,Month-to-month,No,Mailed check,27.15,905.23,No
+CUS-0231,Female,1,No,Yes,68.0,Yes,No,No internet service,No internet service,One year,Yes,Electronic check,25.81,1675.77,No
+CUS-0232,Male,1,Yes,Yes,33.0,Yes,DSL,Yes,No,Month-to-month,No,Mailed check,32.3,973.21,No
+CUS-0233,Male,0,Yes,No,14.0,No,Fiber optic,No,No,One year,No,Electronic check,98.06,1249.26,No
+CUS-0234,Female,0,Yes,No,21.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Bank transfer,39.25,760.87,No
+CUS-0235,Female,0,Yes,No,48.0,Yes,Fiber optic,No,No,Month-to-month,No,Credit card,93.07,4084.39,Yes
+CUS-0236,Male,0,Yes,No,20.0,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Credit card,96.76,2036.05,Yes
+CUS-0237,Male,0,No,Yes,8.0,No,DSL,No,Yes,Two year,No,Credit card,30.5,243.3,Yes
+CUS-0238,Female,0,No,No,7.0,Yes,Fiber optic,Yes,No,Two year,No,Electronic check,84.17,570.68,No
+CUS-0239,Female,0,Yes,No,67.0,Yes,No,No internet service,No internet service,Month-to-month,No,Bank transfer,30.49,2009.48,No
+CUS-0240,Male,0,Yes,No,17.0,Yes,Fiber optic,No,Yes,One year,Yes,Mailed check,91.1,1681.56,Yes
+CUS-0241,Female,0,No,No,33.0,Yes,Fiber optic,No,No,One year,No,Credit card,94.85,3387.18,Yes
+CUS-0242,Female,0,Yes,No,48.0,Yes,DSL,No,No,Two year,Yes,Electronic check,24.4,1221.72,No
+CUS-0243,Female,0,Yes,No,59.0,Yes,DSL,Yes,Yes,Month-to-month,Yes,Credit card,27.37,1739.07,No
+CUS-0244,Male,0,Yes,Yes,22.0,Yes,No,No internet service,No internet service,One year,No,Mailed check,27.28,578.51,No
+CUS-0245,Male,0,Yes,No,30.0,Yes,Fiber optic,Yes,No,Month-to-month,Yes,Bank transfer,,2904.94,No
+CUS-0246,Male,1,Yes,No,38.0,Yes,Fiber optic,No,No,Month-to-month,No,Mailed check,88.88,3454.25,No
+CUS-0247,Female,0,No,No,51.0,Yes,DSL,No,No,Two year,Yes,Bank transfer,35.1,1834.36,No
+CUS-0248,Female,0,Yes,No,54.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Bank transfer,95.02,5112.3,No
+CUS-0249,Male,0,Yes,Yes,8.0,Yes,No,No internet service,No internet service,Month-to-month,No,Bank transfer,25.31,198.46,No
+CUS-0250,Male,0,Yes,No,27.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Credit card,91.44,2708.94,Yes
+CUS-0251,Male,0,No,No,27.0,Yes,DSL,No,Yes,One year,Yes,Mailed check,37.89,1088.73,No
+CUS-0252,Female,0,No,No,21.0,Yes,Fiber optic,Yes,No,One year,No,Credit card,89.5,1855.06,No
+CUS-0253,Male,0,No,No,30.0,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Mailed check,98.9,3101.88,Yes
+CUS-0254,Male,0,No,Yes,28.0,No,Fiber optic,No,No,Two year,No,Electronic check,84.29,2251.35,No
+CUS-0255,Female,1,Yes,No,64.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Electronic check,21.48,1264.79,No
+CUS-0256,Female,0,No,No,69.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Mailed check,97.83,6551.04,No
+CUS-0257,Female,0,Yes,No,61.0,Yes,No,No internet service,No internet service,Two year,Yes,Mailed check,36.95,2210.21,No
+CUS-0258,Male,1,Yes,No,48.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Mailed check,99.85,4329.37,No
+CUS-0259,Female,1,No,No,19.0,Yes,DSL,No,No,Month-to-month,Yes,Mailed check,33.59,678.39,No
+CUS-0260,Female,0,No,No,4.0,Yes,DSL,No,No,Month-to-month,Yes,Bank transfer,,150.56,Yes
+CUS-0261,Male,0,No,Yes,,Yes,DSL,No,Yes,Two year,Yes,Credit card,36.54,1299.47,No
+CUS-0262,Female,0,No,No,64.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Bank transfer,36.89,2159.79,Yes
+CUS-0263,Male,0,No,No,49.0,Yes,Fiber optic,Yes,No,Two year,Yes,Credit card,91.38,4186.57,No
+CUS-0264,Male,0,Yes,No,17.0,Yes,Fiber optic,Yes,Yes,Two year,Yes,Credit card,87.65,1606.18,No
+CUS-0265,Female,0,No,No,44.0,Yes,DSL,Yes,No,Month-to-month,Yes,Credit card,38.69,1739.37,No
+CUS-0266,Female,0,No,No,30.0,Yes,DSL,No,No,One year,No,Bank transfer,28.64,936.58,No
+CUS-0267,Female,1,No,Yes,,Yes,Fiber optic,No,No,Month-to-month,No,Mailed check,90.78,4592.42,Yes
+CUS-0268,Female,1,Yes,No,6.0,No,Fiber optic,Yes,No,Month-to-month,No,Bank transfer,88.92,519.85,Yes
+CUS-0269,Female,0,No,Yes,,Yes,DSL,No,No,One year,Yes,Bank transfer,31.3,1111.5,No
+CUS-0270,Female,0,Yes,No,24.0,Yes,Fiber optic,Yes,No,Two year,No,Credit card,89.41,2299.63,No
+CUS-0271,Male,0,No,Yes,46.0,Yes,DSL,No,No,Month-to-month,No,Electronic check,20.96,1060.31,Yes
+CUS-0272,Male,0,No,No,53.0,Yes,DSL,Yes,No,Month-to-month,No,Electronic check,37.64,2046.64,No
+CUS-0273,Female,0,Yes,No,60.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Bank transfer,88.89,5648.22,No
+CUS-0274,Male,0,No,Yes,63.0,Yes,DSL,Yes,No,Month-to-month,No,Credit card,31.78,2114.96,No
+CUS-0275,Female,0,Yes,No,32.0,Yes,No,No internet service,No internet service,Month-to-month,No,Bank transfer,22.78,707.87,No
+CUS-0276,Male,0,Yes,No,33.0,Yes,DSL,No,No,Month-to-month,No,Bank transfer,20.07,672.15,Yes
+CUS-0277,Male,0,Yes,Yes,67.0,Yes,DSL,No,No,One year,Yes,Mailed check,24.91,1780.14,No
+CUS-0278,Male,0,No,No,18.0,Yes,DSL,Yes,Yes,Month-to-month,Yes,Credit card,34.09,636.71,No
+CUS-0279,Female,0,No,No,25.0,Yes,Fiber optic,Yes,Yes,Month-to-month,Yes,Electronic check,81.98,1853.23,No
+CUS-0280,Male,0,No,No,54.0,Yes,Fiber optic,Yes,No,Two year,Yes,Electronic check,98.18,5128.57,No
+CUS-0281,Female,1,Yes,Yes,58.0,No,Fiber optic,No,No,Two year,No,Electronic check,84.3,4541.74,Yes
+CUS-0282,Male,0,No,Yes,67.0,Yes,DSL,Yes,No,Month-to-month,Yes,Bank transfer,24.09,1527.83,Yes
+CUS-0283,Male,0,Yes,Yes,46.0,Yes,DSL,No,No,Month-to-month,Yes,Credit card,23.63,1175.13,No
+CUS-0284,Male,0,No,Yes,24.0,Yes,Fiber optic,No,Yes,One year,Yes,Mailed check,80.28,1748.26,No
+CUS-0285,Male,0,Yes,Yes,32.0,No,No,No internet service,No internet service,Month-to-month,Yes,Electronic check,35.44,1070.53,No
+CUS-0286,Male,0,Yes,No,47.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Credit card,37.5,1695.37,No
+CUS-0287,Female,0,Yes,No,23.0,Yes,DSL,Yes,No,One year,No,Electronic check,32.28,759.8,No
+CUS-0288,Female,0,No,No,,Yes,Fiber optic,Yes,Yes,Month-to-month,Yes,Mailed check,83.76,5565.86,No
+CUS-0289,Male,0,Yes,No,27.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Credit card,25.71,655.06,Yes
+CUS-0290,Male,1,Yes,Yes,2.0,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Bank transfer,89.52,167.02,No
+CUS-0291,Male,0,Yes,Yes,17.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Bank transfer,,,No
+CUS-0292,Male,0,Yes,No,33.0,Yes,DSL,Yes,No,Month-to-month,Yes,Electronic check,,823.77,No
+CUS-0293,Female,1,Yes,Yes,9.0,Yes,No,No internet service,No internet service,Two year,No,Electronic check,34.63,297.41,No
+CUS-0294,Male,0,Yes,No,43.0,Yes,Fiber optic,Yes,Yes,Month-to-month,No,Credit card,88.79,4159.76,No
+CUS-0295,Female,1,No,No,48.0,Yes,No,No internet service,No internet service,Month-to-month,No,Mailed check,25.96,1237.07,Yes
+CUS-0296,Male,0,No,No,39.0,Yes,Fiber optic,No,No,Month-to-month,No,Electronic check,89.12,3168.98,No
+CUS-0297,Female,0,Yes,No,42.0,Yes,Fiber optic,No,No,Two year,Yes,Credit card,81.42,3576.44,No
+CUS-0298,Male,0,No,No,26.0,Yes,No,No internet service,No internet service,Month-to-month,No,Mailed check,35.97,903.21,Yes
+CUS-0299,Male,0,No,No,50.0,Yes,DSL,Yes,No,Month-to-month,No,Electronic check,24.87,1281.67,No
+CUS-0300,Female,0,Yes,No,25.0,Yes,DSL,No,No,Two year,No,Electronic check,34.51,824.72,No
+CUS-0301,Male,0,Yes,No,24.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Credit card,81.37,1980.51,Yes
+CUS-0302,Male,0,Yes,No,13.0,Yes,Fiber optic,No,No,Month-to-month,No,Electronic check,99.1,1358.42,No
+CUS-0303,Male,0,No,No,60.0,Yes,No,No internet service,No internet service,Month-to-month,No,Bank transfer,23.86,1554.15,Yes
+CUS-0304,Female,0,Yes,No,7.0,Yes,DSL,No,No,Month-to-month,No,Mailed check,37.65,250.96,No
+CUS-0305,Male,1,No,No,57.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Mailed check,36.19,1994.7,Yes
+CUS-0306,Male,1,Yes,No,36.0,Yes,Fiber optic,Yes,Yes,One year,No,Bank transfer,99.36,3551.4,No
+CUS-0307,Female,1,No,No,45.0,Yes,DSL,No,No,Month-to-month,No,Credit card,29.56,1443.85,Yes
+CUS-0308,Female,0,Yes,Yes,20.0,Yes,Fiber optic,Yes,No,One year,No,Bank transfer,94.55,2042.8,Yes
+CUS-0309,Female,0,Yes,No,65.0,Yes,DSL,Yes,No,Month-to-month,Yes,Bank transfer,27.41,1635.51,Yes
+CUS-0310,Male,0,No,No,8.0,Yes,DSL,No,No,Month-to-month,No,Mailed check,23.69,175.57,No
+CUS-0311,Male,0,No,No,16.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Credit card,28.86,,No
+CUS-0312,Male,0,No,Yes,14.0,Yes,Fiber optic,No,No,Two year,No,Electronic check,83.31,1074.58,No
+CUS-0313,Female,0,No,No,15.0,No,Fiber optic,No,Yes,Month-to-month,Yes,Bank transfer,,1448.44,Yes
+CUS-0314,Male,0,No,No,66.0,Yes,No,No internet service,No internet service,One year,No,Bank transfer,21.92,1344.98,No
+CUS-0315,Male,0,No,No,32.0,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Credit card,91.78,3016.87,Yes
+CUS-0316,Female,0,Yes,No,63.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Bank transfer,32.53,2233.63,No
+CUS-0317,Female,0,No,No,51.0,Yes,Fiber optic,No,No,Month-to-month,No,Credit card,90.76,5088.61,Yes
+CUS-0318,Female,0,Yes,No,25.0,Yes,No,No internet service,No internet service,Month-to-month,No,Electronic check,33.24,810.27,No
+CUS-0319,Female,1,Yes,No,58.0,Yes,DSL,Yes,No,Month-to-month,Yes,Credit card,22.32,1320.2,No
+CUS-0320,Female,0,No,Yes,63.0,Yes,No,No internet service,No internet service,Month-to-month,No,Electronic check,31.1,2098.91,No
+CUS-0321,Male,0,Yes,No,62.0,Yes,DSL,Yes,Yes,One year,No,Credit card,25.74,1473.78,No
+CUS-0322,Female,0,No,Yes,22.0,Yes,DSL,No,Yes,Month-to-month,Yes,Bank transfer,38.8,885.96,No
+CUS-0323,Male,0,No,No,58.0,Yes,Fiber optic,No,No,One year,Yes,Electronic check,95.24,5423.21,Yes
+CUS-0324,Male,0,Yes,Yes,58.0,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Bank transfer,,5429.1,Yes
+CUS-0325,Female,0,Yes,Yes,49.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Electronic check,80.75,3879.79,Yes
+CUS-0326,Female,0,No,Yes,52.0,Yes,Fiber optic,Yes,No,One year,Yes,Credit card,,4078.46,No
+CUS-0327,Female,0,No,Yes,42.0,Yes,Fiber optic,No,No,Month-to-month,No,Credit card,83.91,3661.95,No
+CUS-0328,Male,0,Yes,No,70.0,Yes,DSL,No,No,Month-to-month,No,Credit card,20.22,1345.41,No
+CUS-0329,Female,0,Yes,No,15.0,Yes,DSL,Yes,No,One year,Yes,Mailed check,24.85,358.69,No
+CUS-0330,Female,1,Yes,No,54.0,Yes,DSL,No,No,Two year,Yes,Mailed check,33.58,1675.9,No
+CUS-0331,Female,0,Yes,Yes,60.0,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Electronic check,84.62,5447.49,No
+CUS-0332,Female,0,No,Yes,8.0,Yes,DSL,Yes,Yes,Month-to-month,Yes,Mailed check,30.18,241.12,Yes
+CUS-0333,Female,1,No,Yes,53.0,Yes,Fiber optic,No,No,Two year,Yes,Credit card,97.76,5256.04,Yes
+CUS-0334,Male,0,No,Yes,60.0,Yes,Fiber optic,Yes,No,Month-to-month,No,Mailed check,93.88,5711.02,No
+CUS-0335,Male,0,No,No,5.0,Yes,DSL,No,No,One year,No,Mailed check,27.89,136.95,No
+CUS-0336,Male,0,Yes,Yes,68.0,Yes,Fiber optic,Yes,No,Month-to-month,Yes,Bank transfer,87.45,5580.92,No
+CUS-0337,Female,0,Yes,No,6.0,Yes,No,No internet service,No internet service,Month-to-month,No,Electronic check,29.11,183.22,No
+CUS-0338,Female,1,No,Yes,47.0,Yes,DSL,No,No,One year,Yes,Electronic check,23.54,1023.86,No
+CUS-0339,Female,0,No,Yes,55.0,Yes,Fiber optic,No,No,Month-to-month,No,Electronic check,92.68,4693.56,Yes
+CUS-0340,Male,1,No,No,40.0,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Mailed check,87.28,3637.93,Yes
+CUS-0341,Female,0,No,No,52.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Credit card,97.05,4752.72,Yes
+CUS-0342,Female,0,No,Yes,16.0,Yes,Fiber optic,No,Yes,Two year,No,Bank transfer,95.13,1463.26,No
+CUS-0343,Female,0,No,Yes,13.0,No,Fiber optic,Yes,No,One year,Yes,Electronic check,92.21,1192.79,No
+CUS-0344,Male,0,No,No,30.0,Yes,Fiber optic,No,No,Month-to-month,No,Mailed check,87.28,2591.88,No
+CUS-0345,Female,0,No,Yes,19.0,Yes,DSL,No,No,Month-to-month,Yes,Credit card,24.2,,Yes
+CUS-0346,Male,1,No,Yes,17.0,Yes,Fiber optic,No,No,One year,Yes,Bank transfer,95.52,1663.93,No
+CUS-0347,Female,0,Yes,No,63.0,Yes,Fiber optic,No,No,Two year,Yes,Bank transfer,89.73,5816.24,No
+CUS-0348,Male,1,No,No,19.0,Yes,DSL,No,No,One year,Yes,Electronic check,24.5,485.43,Yes
+CUS-0349,Male,0,Yes,No,58.0,Yes,Fiber optic,No,No,Month-to-month,No,Electronic check,83.9,4664.36,No
+CUS-0350,Male,1,Yes,No,55.0,Yes,No,No internet service,No internet service,One year,Yes,Credit card,23.31,1236.49,No
+CUS-0351,Female,0,No,No,62.0,Yes,Fiber optic,Yes,No,One year,No,Mailed check,95.54,5850.03,Yes
+CUS-0352,Female,0,No,No,23.0,Yes,Fiber optic,No,Yes,Month-to-month,No,Credit card,84.58,1870.43,Yes
+CUS-0353,Male,1,Yes,No,9.0,Yes,No,No internet service,No internet service,Month-to-month,No,Electronic check,30.53,301.42,No
+CUS-0354,Male,0,Yes,No,12.0,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Credit card,89.03,1135.46,Yes
+CUS-0355,Female,0,No,Yes,1.0,No,Fiber optic,No,Yes,One year,No,Mailed check,91.59,85.45,Yes
+CUS-0356,Female,0,Yes,No,58.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Bank transfer,37.54,1962.02,No
+CUS-0357,Male,0,No,No,1.0,Yes,No,No internet service,No internet service,One year,Yes,Bank transfer,37.35,33.93,No
+CUS-0358,Female,1,No,No,34.0,Yes,Fiber optic,No,Yes,Two year,Yes,Bank transfer,89.02,2871.75,No
+CUS-0359,Female,0,No,No,48.0,No,Fiber optic,Yes,No,Two year,Yes,Bank transfer,80.31,3557.51,No
+CUS-0360,Female,0,Yes,No,1.0,Yes,Fiber optic,No,No,Two year,Yes,Electronic check,88.53,89.12,Yes
+CUS-0361,Female,0,Yes,Yes,16.0,Yes,No,No internet service,No internet service,Two year,No,Electronic check,32.12,550.72,No
+CUS-0362,Male,0,No,No,61.0,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Mailed check,91.16,5824.06,Yes
+CUS-0363,Female,0,Yes,Yes,64.0,Yes,DSL,Yes,No,One year,Yes,Mailed check,33.03,1993.68,No
+CUS-0364,Female,0,Yes,No,63.0,Yes,No,No internet service,No internet service,Month-to-month,No,Mailed check,23.08,1424.76,No
+CUS-0365,Male,0,Yes,Yes,69.0,Yes,Fiber optic,No,No,Two year,Yes,Mailed check,92.93,6422.29,No
+CUS-0366,Male,0,Yes,No,22.0,No,DSL,No,Yes,Month-to-month,Yes,Credit card,23.65,552.58,Yes
+CUS-0367,Female,0,Yes,Yes,67.0,Yes,Fiber optic,No,Yes,Two year,Yes,Mailed check,95.01,6797.42,No
+CUS-0368,Female,0,Yes,No,26.0,Yes,Fiber optic,No,No,One year,No,Bank transfer,86.78,2441.17,Yes
+CUS-0369,Female,0,Yes,No,16.0,Yes,No,No internet service,No internet service,Two year,Yes,Bank transfer,,,No
+CUS-0370,Female,0,No,Yes,51.0,Yes,DSL,Yes,Yes,Month-to-month,Yes,Bank transfer,20.96,1110.49,Yes
+CUS-0371,Male,0,Yes,No,57.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Credit card,28.16,1480.5,No
+CUS-0372,Male,0,Yes,No,29.0,Yes,Fiber optic,Yes,No,One year,No,Mailed check,94.1,,Yes
+CUS-0373,Male,0,Yes,Yes,69.0,Yes,DSL,No,Yes,Month-to-month,No,Bank transfer,24.54,1608.15,No
+CUS-0374,Female,0,Yes,No,47.0,Yes,No,No internet service,No internet service,Two year,No,Bank transfer,35.91,1664.72,No
+CUS-0375,Female,0,Yes,Yes,62.0,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Bank transfer,92.62,5896.4,Yes
+CUS-0376,Female,0,Yes,No,69.0,Yes,DSL,No,Yes,One year,Yes,Bank transfer,31.75,2084.27,No
+CUS-0377,Female,0,Yes,No,16.0,Yes,Fiber optic,Yes,No,Month-to-month,Yes,Electronic check,87.07,1268.35,Yes
+CUS-0378,Male,0,Yes,No,48.0,Yes,No,No internet service,No internet service,One year,Yes,Mailed check,29.65,1283.79,No
+CUS-0379,Male,0,No,No,39.0,No,DSL,No,No,One year,Yes,Mailed check,31.95,1126.97,No
+CUS-0380,Female,0,Yes,Yes,33.0,Yes,DSL,No,No,Month-to-month,Yes,Credit card,29.45,876.29,No
+CUS-0381,Male,1,Yes,Yes,23.0,No,DSL,No,No,Month-to-month,Yes,Electronic check,33.97,720.42,No
+CUS-0382,Female,0,Yes,No,10.0,Yes,DSL,Yes,No,Month-to-month,No,Credit card,28.67,271.76,No
+CUS-0383,Female,0,Yes,No,69.0,Yes,No,No internet service,No internet service,One year,Yes,Bank transfer,24.05,1566.93,No
+CUS-0384,Male,0,No,No,34.0,Yes,Fiber optic,No,No,Month-to-month,No,Credit card,84.28,3144.51,No
+CUS-0385,Female,0,No,No,52.0,Yes,DSL,No,No,One year,Yes,Bank transfer,20.12,1005.65,No
+CUS-0386,Female,0,No,No,10.0,Yes,DSL,Yes,No,Month-to-month,Yes,Bank transfer,26.02,240.81,No
+CUS-0387,Male,1,No,No,19.0,Yes,DSL,No,Yes,Month-to-month,Yes,Mailed check,34.98,,No
+CUS-0388,Female,0,No,No,58.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Mailed check,35.88,2230.02,No
+CUS-0389,Female,0,No,No,1.0,Yes,Fiber optic,Yes,No,Month-to-month,Yes,Mailed check,84.05,87.04,No
+CUS-0390,Male,0,No,No,69.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Mailed check,39.18,2593.16,No
+CUS-0391,Female,0,No,Yes,4.0,Yes,Fiber optic,No,Yes,Two year,No,Mailed check,90.05,364.64,Yes
+CUS-0392,Male,0,No,No,16.0,Yes,DSL,No,Yes,Two year,No,Electronic check,38.34,639.8,No
+CUS-0393,Female,0,No,No,24.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Mailed check,34.14,856.74,Yes
+CUS-0394,Male,0,No,No,2.0,Yes,Fiber optic,Yes,Yes,One year,No,Credit card,94.45,195.19,Yes
+CUS-0395,Male,0,No,Yes,32.0,Yes,Fiber optic,No,No,Two year,No,Bank transfer,81.7,2808.29,Yes
+CUS-0396,Male,0,No,No,24.0,Yes,No,No internet service,No internet service,Month-to-month,No,Mailed check,24.4,628.95,No
+CUS-0397,Female,0,No,No,12.0,Yes,DSL,No,Yes,Month-to-month,No,Electronic check,20.18,245.98,Yes
+CUS-0398,Male,0,No,No,50.0,Yes,DSL,No,No,Month-to-month,Yes,Credit card,34.32,1691.93,No
+CUS-0399,Male,0,No,Yes,35.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Credit card,86.89,3127.26,Yes
+CUS-0400,Male,0,Yes,Yes,33.0,Yes,DSL,Yes,No,Two year,Yes,Bank transfer,35.73,1254.13,No
+CUS-0401,Male,0,No,No,33.0,Yes,DSL,No,Yes,One year,Yes,Credit card,26.78,796.36,No
+CUS-0402,Male,0,Yes,No,61.0,Yes,DSL,No,Yes,Month-to-month,Yes,Credit card,36.39,2438.22,No
+CUS-0403,Female,0,No,No,51.0,No,DSL,No,No,Month-to-month,Yes,Credit card,22.61,1079.98,No
+CUS-0404,Female,0,No,No,43.0,Yes,Fiber optic,No,Yes,One year,No,Credit card,83.47,3567.85,No
+CUS-0405,Female,0,Yes,Yes,12.0,Yes,DSL,No,No,Two year,No,Electronic check,26.82,345.79,No
+CUS-0406,Female,0,No,No,67.0,Yes,Fiber optic,No,Yes,One year,No,Bank transfer,88.17,5582.53,No
+CUS-0407,Female,0,Yes,Yes,65.0,Yes,Fiber optic,Yes,No,One year,No,Mailed check,86.97,5626.81,No
+CUS-0408,Female,0,Yes,No,33.0,Yes,Fiber optic,No,No,Month-to-month,No,Credit card,95.27,2912.88,No
+CUS-0409,Female,0,Yes,No,40.0,Yes,DSL,No,No,Two year,Yes,Electronic check,21.94,859.18,No
+CUS-0410,Male,0,No,No,43.0,Yes,No,No internet service,No internet service,One year,Yes,Bank transfer,27.02,1086.84,No
+CUS-0411,Female,1,No,No,44.0,No,DSL,No,No,Month-to-month,Yes,Mailed check,36.74,1572.47,Yes
+CUS-0412,Male,0,No,No,29.0,Yes,Fiber optic,No,Yes,One year,No,Bank transfer,81.34,2299.16,No
+CUS-0413,Male,0,Yes,No,13.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Electronic check,38.85,554.87,No
+CUS-0414,Female,0,Yes,Yes,12.0,Yes,Fiber optic,No,Yes,Month-to-month,No,Electronic check,99.73,1315.19,No
+CUS-0415,Male,1,No,No,46.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Electronic check,81.77,3471.63,Yes
+CUS-0416,Male,0,No,No,2.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Credit card,85.83,179.42,Yes
+CUS-0417,Male,0,No,Yes,35.0,Yes,Fiber optic,No,No,Month-to-month,No,Electronic check,87.45,2786.35,Yes
+CUS-0418,Male,0,No,No,8.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Mailed check,35.53,257.53,Yes
+CUS-0419,Female,0,No,No,26.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Credit card,31.92,764.41,Yes
+CUS-0420,Female,0,Yes,No,34.0,Yes,DSL,No,No,Month-to-month,Yes,Bank transfer,32.89,1222.37,No
+CUS-0421,Female,1,Yes,No,7.0,No,Fiber optic,No,No,Month-to-month,Yes,Mailed check,95.15,724.78,Yes
+CUS-0422,Female,0,Yes,No,68.0,Yes,No,No internet service,No internet service,Month-to-month,No,Credit card,22.36,1427.4,No
+CUS-0423,Female,0,No,Yes,58.0,Yes,No,No internet service,No internet service,One year,Yes,Electronic check,36.66,1982.4,No
+CUS-0424,Female,0,Yes,Yes,29.0,No,Fiber optic,Yes,Yes,Month-to-month,Yes,Bank transfer,94.11,2587.56,No
+CUS-0425,Female,0,Yes,No,,Yes,Fiber optic,No,No,Month-to-month,Yes,Electronic check,91.55,3306.05,Yes
+CUS-0426,Female,0,Yes,No,21.0,Yes,DSL,No,Yes,Two year,No,Mailed check,37.79,804.65,No
+CUS-0427,Female,0,Yes,Yes,36.0,Yes,No,No internet service,No internet service,One year,Yes,Mailed check,34.01,1156.19,No
+CUS-0428,Female,0,Yes,No,10.0,Yes,DSL,No,No,Two year,No,Credit card,24.03,,No
+CUS-0429,Male,0,No,No,24.0,Yes,Fiber optic,Yes,No,Month-to-month,No,Mailed check,88.59,2045.18,Yes
+CUS-0430,Female,0,Yes,No,64.0,Yes,DSL,No,Yes,Month-to-month,Yes,Bank transfer,29.88,2073.77,Yes
+CUS-0431,Male,0,No,Yes,49.0,No,DSL,No,No,One year,No,Credit card,21.1,,No
+CUS-0432,Male,1,No,No,36.0,Yes,Fiber optic,No,No,Month-to-month,No,Bank transfer,99.09,3521.83,No
+CUS-0433,Male,0,No,No,24.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Electronic check,22.57,573.09,No
+CUS-0434,Male,1,No,No,23.0,Yes,DSL,Yes,Yes,Month-to-month,Yes,Bank transfer,33.95,830.5,No
+CUS-0435,Female,0,No,No,62.0,No,Fiber optic,Yes,Yes,Two year,No,Bank transfer,90.12,5353.31,No
+CUS-0436,Male,0,Yes,No,37.0,Yes,DSL,No,Yes,Month-to-month,No,Mailed check,20.51,734.54,No
+CUS-0437,Female,0,Yes,No,12.0,No,DSL,No,No,Two year,Yes,Electronic check,38.49,502.15,Yes
+CUS-0438,Female,0,No,Yes,55.0,Yes,Fiber optic,No,Yes,Two year,Yes,Mailed check,97.04,4979.33,Yes
+CUS-0439,Male,0,No,No,13.0,Yes,Fiber optic,Yes,No,Month-to-month,No,Electronic check,90.49,1068.65,Yes
+CUS-0440,Female,0,No,No,23.0,Yes,DSL,Yes,Yes,One year,No,Electronic check,24.58,560.15,No
+CUS-0441,Male,0,Yes,No,,Yes,DSL,No,No,One year,No,Bank transfer,22.43,713.44,Yes
+CUS-0442,Male,0,No,Yes,17.0,Yes,DSL,No,No,Two year,Yes,Mailed check,27.27,488.78,No
+CUS-0443,Female,1,Yes,Yes,62.0,Yes,DSL,No,No,Month-to-month,No,Bank transfer,25.11,1687.45,No
+CUS-0444,Female,1,No,No,13.0,Yes,No,No internet service,No internet service,One year,Yes,Bank transfer,30.13,394.29,No
+CUS-0445,Male,0,Yes,No,59.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Bank transfer,39.33,2134.86,No
+CUS-0446,Female,0,No,No,19.0,Yes,DSL,Yes,Yes,Two year,No,Electronic check,31.5,609.12,No
+CUS-0447,Female,0,Yes,No,49.0,No,Fiber optic,Yes,Yes,Month-to-month,No,Mailed check,97.8,5059.03,No
+CUS-0448,Female,0,No,No,12.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Mailed check,33.02,364.01,No
+CUS-0449,Male,0,Yes,No,61.0,Yes,DSL,Yes,No,One year,Yes,Bank transfer,29.5,1681.69,No
+CUS-0450,Male,0,Yes,No,19.0,Yes,No,No internet service,No internet service,Two year,No,Electronic check,37.09,635.97,No
+CUS-0451,Female,0,Yes,No,9.0,Yes,No,No internet service,No internet service,One year,Yes,Mailed check,29.43,269.83,No
+CUS-0452,Female,1,Yes,No,71.0,Yes,DSL,No,No,Month-to-month,No,Credit card,37.37,2858.49,No
+CUS-0453,Female,0,Yes,Yes,28.0,Yes,DSL,No,No,Month-to-month,No,Mailed check,25.83,747.93,Yes
+CUS-0454,Female,0,Yes,No,52.0,Yes,No,No internet service,No internet service,Two year,Yes,Bank transfer,22.58,1287.36,No
+CUS-0455,Female,0,Yes,No,16.0,Yes,Fiber optic,Yes,Yes,One year,No,Credit card,97.11,1417.97,Yes
+CUS-0456,Male,0,No,Yes,69.0,Yes,DSL,Yes,No,Two year,No,Electronic check,31.75,2367.32,No
+CUS-0457,Female,0,No,Yes,12.0,Yes,DSL,No,No,Month-to-month,No,Credit card,37.78,481.84,Yes
+CUS-0458,Male,1,No,No,25.0,Yes,Fiber optic,No,No,Month-to-month,No,Credit card,98.76,2377.27,Yes
+CUS-0459,Female,0,No,Yes,52.0,Yes,Fiber optic,No,No,One year,No,Bank transfer,81.07,4614.88,Yes
+CUS-0460,Male,1,No,Yes,53.0,Yes,Fiber optic,Yes,No,Two year,Yes,Mailed check,90.02,4568.71,No
+CUS-0461,Female,0,Yes,No,,Yes,No,No internet service,No internet service,Month-to-month,Yes,Electronic check,27.5,681.75,No
+CUS-0462,Male,0,Yes,No,16.0,Yes,DSL,Yes,No,Two year,No,Credit card,32.52,559.94,No
+CUS-0463,Female,0,Yes,No,57.0,No,Fiber optic,No,No,Month-to-month,Yes,Bank transfer,95.87,5746.19,Yes
+CUS-0464,Male,0,Yes,Yes,39.0,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Mailed check,85.61,3381.17,Yes
+CUS-0465,Male,1,Yes,Yes,53.0,Yes,Fiber optic,No,No,Month-to-month,No,Credit card,91.14,4463.31,No
+CUS-0466,Male,1,No,No,42.0,Yes,DSL,No,No,Month-to-month,No,Bank transfer,34.17,1444.32,Yes
+CUS-0467,Male,0,No,No,58.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Bank transfer,22.69,1278.33,No
+CUS-0468,Male,0,No,No,39.0,Yes,No,No internet service,No internet service,Month-to-month,No,Bank transfer,,1497.61,No
+CUS-0469,Male,0,No,No,14.0,Yes,Fiber optic,No,No,Month-to-month,No,Electronic check,92.12,1356.26,Yes
+CUS-0470,Female,1,Yes,No,5.0,Yes,Fiber optic,Yes,No,Two year,Yes,Mailed check,98.99,535.6,No
+CUS-0471,Male,0,Yes,Yes,35.0,Yes,DSL,No,No,Month-to-month,No,Credit card,26.79,846.67,Yes
+CUS-0472,Female,0,Yes,No,18.0,Yes,Fiber optic,Yes,No,Month-to-month,Yes,Mailed check,82.16,1570.31,Yes
+CUS-0473,Female,0,No,Yes,9.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Mailed check,90.13,882.3,No
+CUS-0474,Female,0,Yes,No,58.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Credit card,81.72,5014.0,No
+CUS-0475,Female,0,No,No,17.0,Yes,No,No internet service,No internet service,One year,Yes,Mailed check,39.39,620.1,No
+CUS-0476,Female,0,Yes,No,7.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Electronic check,80.77,518.04,No
+CUS-0477,Male,1,Yes,Yes,46.0,Yes,Fiber optic,Yes,No,One year,No,Credit card,95.07,3954.13,No
+CUS-0478,Male,0,No,Yes,13.0,Yes,Fiber optic,No,Yes,One year,No,Credit card,90.5,1206.79,No
+CUS-0479,Male,0,Yes,No,40.0,Yes,DSL,No,No,Month-to-month,Yes,Bank transfer,27.37,1123.19,No
+CUS-0480,Female,1,Yes,Yes,42.0,Yes,Fiber optic,No,No,Month-to-month,No,Mailed check,81.32,3748.04,No
+CUS-0481,Male,0,No,No,9.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Credit card,92.44,815.0,Yes
+CUS-0482,Male,1,Yes,Yes,,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Credit card,91.7,4430.86,No
+CUS-0483,Male,0,No,No,27.0,Yes,No,No internet service,No internet service,One year,No,Electronic check,25.62,708.95,No
+CUS-0484,Male,0,Yes,No,66.0,Yes,Fiber optic,Yes,Yes,One year,Yes,Bank transfer,98.2,6903.27,No
+CUS-0485,Male,1,Yes,No,5.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Credit card,26.08,141.79,Yes
+CUS-0486,Female,0,Yes,No,29.0,Yes,Fiber optic,No,No,Month-to-month,No,Electronic check,88.99,,Yes
+CUS-0487,Male,0,Yes,Yes,37.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Credit card,,3313.25,Yes
+CUS-0488,Female,0,Yes,Yes,38.0,Yes,No,No internet service,No internet service,One year,No,Credit card,22.0,858.56,No
+CUS-0489,Female,0,Yes,No,8.0,Yes,DSL,No,Yes,Month-to-month,Yes,Credit card,38.64,331.15,No
+CUS-0490,Female,0,Yes,No,65.0,Yes,DSL,No,No,Month-to-month,Yes,Electronic check,27.49,1783.49,No
+CUS-0491,Female,0,Yes,No,17.0,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Mailed check,81.62,1308.92,Yes
+CUS-0492,Female,1,No,Yes,71.0,Yes,DSL,Yes,No,One year,Yes,Credit card,27.75,1840.1,No
+CUS-0493,Male,0,No,Yes,45.0,Yes,DSL,Yes,No,Two year,Yes,Credit card,32.0,1296.05,No
+CUS-0494,Male,0,Yes,Yes,4.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Mailed check,90.27,376.84,Yes
+CUS-0495,Male,0,Yes,No,36.0,Yes,Fiber optic,No,No,Month-to-month,No,Credit card,93.89,3117.14,No
+CUS-0496,Female,0,No,Yes,70.0,No,Fiber optic,No,Yes,Two year,No,Bank transfer,81.11,5386.82,No
+CUS-0497,Male,0,Yes,No,31.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Credit card,25.69,764.2,Yes
+CUS-0498,Male,1,Yes,Yes,19.0,Yes,Fiber optic,Yes,Yes,One year,Yes,Bank transfer,96.38,1853.33,Yes
+CUS-0499,Female,0,No,No,61.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Mailed check,21.6,1290.71,No
+CUS-0500,Female,0,Yes,No,54.0,Yes,DSL,Yes,No,One year,No,Electronic check,37.11,2073.95,No
+CUS-0501,Female,0,Yes,No,39.0,Yes,Fiber optic,No,Yes,Month-to-month,No,Mailed check,81.84,2908.1,No
+CUS-0502,Female,0,No,No,,Yes,No,No internet service,No internet service,Two year,Yes,Credit card,36.69,644.68,No
+CUS-0503,Male,0,Yes,No,39.0,Yes,Fiber optic,No,No,One year,No,Bank transfer,87.22,3401.04,No
+CUS-0504,Female,0,Yes,No,67.0,No,Fiber optic,No,Yes,One year,Yes,Electronic check,92.24,5978.57,No
+CUS-0505,Female,0,No,No,45.0,Yes,Fiber optic,Yes,Yes,One year,Yes,Credit card,83.06,3585.06,No
+CUS-0506,Male,0,Yes,No,13.0,Yes,DSL,No,Yes,One year,Yes,Electronic check,21.32,253.16,No
+CUS-0507,Male,0,No,No,58.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Electronic check,84.32,5277.62,Yes
+CUS-0508,Female,0,Yes,Yes,20.0,Yes,Fiber optic,No,No,Two year,Yes,Credit card,82.56,,No
+CUS-0509,Male,0,Yes,No,61.0,Yes,No,No internet service,No internet service,Two year,Yes,Mailed check,26.25,1480.07,No
+CUS-0510,Female,0,No,Yes,39.0,Yes,DSL,No,Yes,Month-to-month,No,Credit card,30.29,1078.55,Yes
+CUS-0511,Female,0,No,Yes,1.0,Yes,No,No internet service,No internet service,Two year,Yes,Credit card,31.78,34.8,No
+CUS-0512,Male,0,Yes,No,3.0,Yes,No,No internet service,No internet service,One year,Yes,Mailed check,35.8,111.29,No
+CUS-0513,Male,0,No,No,62.0,Yes,DSL,No,No,Month-to-month,Yes,Bank transfer,33.12,2019.54,No
+CUS-0514,Female,0,No,No,63.0,No,Fiber optic,Yes,No,Month-to-month,Yes,Credit card,92.18,6041.64,No
+CUS-0515,Female,0,Yes,No,25.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Electronic check,28.24,742.19,Yes
+CUS-0516,Female,1,Yes,No,56.0,No,No,No internet service,No internet service,Month-to-month,Yes,Credit card,29.48,1743.32,No
+CUS-0517,Male,0,Yes,No,33.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Credit card,88.29,2900.68,Yes
+CUS-0518,Female,0,No,Yes,38.0,Yes,DSL,No,Yes,Month-to-month,Yes,Electronic check,36.84,1380.29,No
+CUS-0519,Female,1,No,Yes,6.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Mailed check,84.6,457.96,Yes
+CUS-0520,Female,0,No,No,58.0,Yes,Fiber optic,Yes,No,Month-to-month,Yes,Bank transfer,80.11,5042.77,No
+CUS-0521,Female,0,No,Yes,44.0,Yes,DSL,No,No,Two year,No,Bank transfer,33.03,1483.35,No
+CUS-0522,Female,0,Yes,Yes,45.0,Yes,Fiber optic,No,Yes,Month-to-month,No,Electronic check,84.05,3557.7,No
+CUS-0523,Male,0,No,No,32.0,Yes,DSL,No,No,Month-to-month,Yes,Mailed check,37.8,1311.11,No
+CUS-0524,Female,0,Yes,No,45.0,Yes,DSL,Yes,No,Month-to-month,Yes,Credit card,37.18,1811.94,No
+CUS-0525,Female,1,No,No,61.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Credit card,81.53,5459.9,No
+CUS-0526,Female,0,Yes,No,47.0,Yes,Fiber optic,No,No,One year,No,Credit card,82.13,4148.89,No
+CUS-0527,Female,0,Yes,No,21.0,Yes,DSL,No,Yes,One year,Yes,Credit card,29.9,690.41,No
+CUS-0528,Male,0,Yes,Yes,36.0,Yes,Fiber optic,No,Yes,One year,Yes,Credit card,92.18,3149.03,No
+CUS-0529,Male,1,No,Yes,19.0,Yes,DSL,No,No,Month-to-month,Yes,Electronic check,25.5,517.66,Yes
+CUS-0530,Male,0,Yes,No,20.0,Yes,DSL,No,Yes,One year,No,Credit card,34.34,731.17,Yes
+CUS-0531,Female,0,Yes,No,57.0,No,DSL,No,No,Month-to-month,Yes,Credit card,31.9,1720.45,Yes
+CUS-0532,Female,0,No,No,18.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Mailed check,26.5,438.69,Yes
+CUS-0533,Male,0,Yes,Yes,47.0,Yes,Fiber optic,Yes,No,Month-to-month,Yes,Credit card,80.51,4146.79,Yes
+CUS-0534,Male,1,No,No,49.0,Yes,Fiber optic,No,No,Month-to-month,No,Bank transfer,,4465.1,No
+CUS-0535,Male,1,No,No,14.0,Yes,Fiber optic,Yes,No,Month-to-month,No,Electronic check,84.3,1267.75,Yes
+CUS-0536,Female,0,Yes,No,15.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Electronic check,36.69,495.77,Yes
+CUS-0537,Female,1,Yes,No,31.0,Yes,DSL,No,No,Two year,No,Electronic check,28.41,796.34,Yes
+CUS-0538,Male,0,No,No,1.0,Yes,Fiber optic,Yes,No,Month-to-month,Yes,Bank transfer,91.54,90.92,No
+CUS-0539,Male,1,Yes,No,54.0,Yes,Fiber optic,No,No,Month-to-month,No,Credit card,97.46,4987.82,No
+CUS-0540,Male,0,No,No,3.0,Yes,Fiber optic,No,Yes,Month-to-month,No,Electronic check,97.27,302.89,Yes
+CUS-0541,Female,0,No,No,16.0,Yes,DSL,No,No,One year,Yes,Bank transfer,27.43,444.63,No
+CUS-0542,Female,0,No,No,57.0,Yes,Fiber optic,No,Yes,Month-to-month,No,Mailed check,84.18,4392.79,Yes
+CUS-0543,Female,0,Yes,No,12.0,No,DSL,No,Yes,Two year,Yes,Credit card,,397.26,No
+CUS-0544,Male,0,No,No,16.0,Yes,Fiber optic,No,Yes,Two year,Yes,Bank transfer,88.66,1386.8,No
+CUS-0545,Male,0,Yes,No,24.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Credit card,83.84,1885.64,Yes
+CUS-0546,Female,0,Yes,Yes,28.0,Yes,DSL,No,Yes,Month-to-month,No,Mailed check,38.09,1128.85,No
+CUS-0547,Male,0,Yes,No,8.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Bank transfer,23.96,188.46,No
+CUS-0548,Female,0,Yes,No,36.0,No,DSL,Yes,Yes,One year,Yes,Credit card,20.52,678.65,No
+CUS-0549,Male,0,No,No,8.0,Yes,No,No internet service,No internet service,Month-to-month,No,Bank transfer,20.41,162.77,No
+CUS-0550,Male,1,Yes,No,58.0,Yes,Fiber optic,Yes,No,Month-to-month,Yes,Electronic check,92.45,4923.31,Yes
+CUS-0551,Male,0,No,No,60.0,Yes,DSL,Yes,Yes,Month-to-month,Yes,Credit card,33.23,1845.84,No
+CUS-0552,Male,0,No,Yes,50.0,Yes,DSL,No,Yes,One year,Yes,Bank transfer,26.22,1242.73,No
+CUS-0553,Female,0,Yes,No,28.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Electronic check,26.4,792.35,Yes
+CUS-0554,Male,1,No,No,41.0,Yes,DSL,No,No,Month-to-month,Yes,Mailed check,26.79,1191.67,Yes
+CUS-0555,Female,0,No,No,64.0,No,DSL,No,No,One year,Yes,Credit card,33.6,2290.72,No
+CUS-0556,Female,0,Yes,No,27.0,Yes,Fiber optic,No,No,One year,No,Credit card,81.16,2118.6,Yes
+CUS-0557,Female,0,No,No,63.0,Yes,Fiber optic,No,Yes,Two year,No,Mailed check,98.58,5927.89,No
+CUS-0558,Male,1,No,No,17.0,Yes,Fiber optic,Yes,No,Month-to-month,Yes,Electronic check,84.45,1449.76,Yes
+CUS-0559,Female,0,No,Yes,33.0,Yes,DSL,No,Yes,One year,Yes,Mailed check,39.99,1378.22,No
+CUS-0560,Female,0,No,No,29.0,Yes,DSL,No,No,One year,Yes,Credit card,23.43,746.52,No
+CUS-0561,Female,0,Yes,No,13.0,Yes,DSL,No,No,Month-to-month,No,Bank transfer,35.43,426.65,No
+CUS-0562,Male,1,No,No,46.0,Yes,DSL,No,Yes,One year,Yes,Electronic check,24.47,1024.15,No
+CUS-0563,Male,0,No,No,35.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Electronic check,81.62,2967.74,No
+CUS-0564,Female,0,No,No,6.0,Yes,Fiber optic,No,No,Two year,No,Electronic check,97.5,623.87,No
+CUS-0565,Male,1,No,Yes,69.0,Yes,DSL,Yes,No,Month-to-month,Yes,Mailed check,37.18,2743.13,No
+CUS-0566,Female,0,Yes,No,47.0,Yes,Fiber optic,No,No,One year,Yes,Mailed check,88.07,4287.03,Yes
+CUS-0567,Female,0,No,No,25.0,Yes,Fiber optic,No,No,Month-to-month,No,Bank transfer,94.05,2564.75,Yes
+CUS-0568,Male,0,Yes,No,66.0,Yes,No,No internet service,No internet service,Two year,No,Bank transfer,31.14,2059.76,No
+CUS-0569,Female,0,No,No,10.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Electronic check,37.06,401.27,Yes
+CUS-0570,Male,0,Yes,Yes,56.0,Yes,No,No internet service,No internet service,Two year,No,Bank transfer,26.3,1610.6,No
+CUS-0571,Male,0,Yes,Yes,30.0,Yes,DSL,No,No,Two year,Yes,Mailed check,30.47,977.57,No
+CUS-0572,Female,0,Yes,No,5.0,No,DSL,No,No,Month-to-month,No,Bank transfer,29.71,142.9,No
+CUS-0573,Male,0,Yes,No,33.0,Yes,DSL,Yes,No,Two year,Yes,Mailed check,27.08,839.35,Yes
+CUS-0574,Male,1,Yes,Yes,65.0,Yes,DSL,No,No,Two year,No,Bank transfer,37.83,2482.61,No
+CUS-0575,Female,0,No,No,18.0,Yes,Fiber optic,Yes,No,Month-to-month,No,Credit card,83.32,1485.67,No
+CUS-0576,Female,1,No,No,49.0,Yes,Fiber optic,No,No,Month-to-month,No,Mailed check,82.99,4373.74,No
+CUS-0577,Male,0,No,No,11.0,Yes,No,No internet service,No internet service,Month-to-month,No,Credit card,31.54,319.19,No
+CUS-0578,Male,1,Yes,No,26.0,No,No,No internet service,No internet service,Month-to-month,Yes,Mailed check,33.15,820.14,No
+CUS-0579,Female,0,No,Yes,63.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Bank transfer,83.89,5551.23,No
+CUS-0580,Male,0,Yes,Yes,59.0,No,Fiber optic,No,No,Month-to-month,Yes,Credit card,87.81,4761.13,Yes
+CUS-0581,Male,0,Yes,No,27.0,No,DSL,No,Yes,Month-to-month,No,Bank transfer,,1013.43,No
+CUS-0582,Male,1,No,No,49.0,Yes,DSL,No,No,Month-to-month,No,Mailed check,24.93,1194.0,No
+CUS-0583,Male,0,No,No,33.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Credit card,93.37,3156.76,No
+CUS-0584,Male,0,Yes,No,1.0,Yes,DSL,No,No,Two year,No,Electronic check,34.8,32.42,No
+CUS-0585,Male,0,Yes,No,21.0,Yes,Fiber optic,No,No,One year,No,Bank transfer,88.96,2002.89,Yes
+CUS-0586,Male,0,No,No,55.0,Yes,DSL,No,No,Month-to-month,No,Mailed check,38.75,2108.89,No
+CUS-0587,Female,0,No,No,6.0,Yes,Fiber optic,Yes,Yes,One year,No,Credit card,94.73,615.79,No
+CUS-0588,Female,0,No,No,69.0,Yes,Fiber optic,No,No,One year,Yes,Bank transfer,89.16,6112.51,Yes
+CUS-0589,Female,0,No,No,5.0,Yes,DSL,Yes,No,Two year,Yes,Credit card,31.39,149.89,No
+CUS-0590,Female,0,Yes,Yes,3.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Bank transfer,33.85,94.28,Yes
+CUS-0591,Female,0,No,No,53.0,Yes,DSL,No,Yes,Month-to-month,Yes,Bank transfer,31.84,1520.03,No
+CUS-0592,Male,0,No,Yes,23.0,Yes,Fiber optic,No,No,Two year,No,Bank transfer,97.57,2258.54,Yes
+CUS-0593,Male,0,No,No,53.0,Yes,Fiber optic,Yes,No,Two year,No,Credit card,87.14,4255.56,No
+CUS-0594,Male,0,Yes,No,37.0,Yes,Fiber optic,Yes,No,One year,No,Credit card,86.0,3113.1,No
+CUS-0595,Male,0,Yes,No,,Yes,No,No internet service,No internet service,One year,No,Bank transfer,24.28,420.13,No
+CUS-0596,Female,0,Yes,No,1.0,Yes,DSL,No,No,Month-to-month,Yes,Electronic check,20.76,19.83,Yes
+CUS-0597,Male,0,Yes,Yes,51.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Electronic check,80.86,3855.99,Yes
+CUS-0598,Male,0,No,Yes,45.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Electronic check,97.4,4623.82,Yes
+CUS-0599,Female,0,Yes,No,4.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Mailed check,33.57,146.28,Yes
+CUS-0600,Male,0,No,Yes,62.0,Yes,DSL,No,Yes,Two year,Yes,Electronic check,33.21,1894.48,No
+CUS-0601,Male,0,No,No,65.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Credit card,92.29,5585.64,No
+CUS-0602,Female,0,No,No,32.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Electronic check,96.98,3388.88,Yes
+CUS-0603,Male,0,No,No,34.0,Yes,DSL,Yes,No,Two year,Yes,Credit card,29.61,913.67,No
+CUS-0604,Male,0,Yes,No,39.0,Yes,Fiber optic,No,No,Month-to-month,No,Mailed check,97.41,4161.89,No
+CUS-0605,Male,0,Yes,Yes,26.0,Yes,DSL,Yes,Yes,Two year,Yes,Credit card,,636.9,No
+CUS-0606,Male,0,Yes,No,34.0,Yes,Fiber optic,No,Yes,Two year,Yes,Credit card,98.53,3600.38,No
+CUS-0607,Male,0,No,No,54.0,Yes,No,No internet service,No internet service,One year,Yes,Credit card,33.97,1763.69,No
+CUS-0608,Female,0,No,Yes,3.0,Yes,Fiber optic,Yes,Yes,Month-to-month,No,Electronic check,85.14,277.82,Yes
+CUS-0609,Female,1,No,No,50.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Bank transfer,91.28,4396.91,No
+CUS-0610,Female,0,No,Yes,12.0,Yes,Fiber optic,Yes,No,Month-to-month,Yes,Credit card,,1121.49,Yes
+CUS-0611,Female,0,No,No,65.0,Yes,DSL,Yes,No,Month-to-month,No,Electronic check,,1355.14,Yes
+CUS-0612,Female,0,Yes,No,54.0,Yes,DSL,No,Yes,Month-to-month,Yes,Electronic check,31.82,1629.73,No
+CUS-0613,Female,0,No,Yes,5.0,Yes,Fiber optic,Yes,Yes,Two year,No,Electronic check,,455.12,No
+CUS-0614,Male,0,Yes,No,57.0,Yes,DSL,Yes,No,Month-to-month,Yes,Bank transfer,21.05,1206.73,No
+CUS-0615,Female,0,No,No,17.0,Yes,DSL,No,No,One year,Yes,Bank transfer,38.97,719.2,No
+CUS-0616,Female,0,No,No,47.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Bank transfer,92.83,4300.84,Yes
+CUS-0617,Male,0,Yes,No,23.0,Yes,DSL,No,No,One year,No,Bank transfer,37.54,927.28,No
+CUS-0618,Male,0,Yes,No,14.0,Yes,DSL,No,No,Two year,Yes,Mailed check,33.52,464.49,No
+CUS-0619,Female,0,No,Yes,66.0,No,Fiber optic,No,No,Month-to-month,Yes,Bank transfer,87.14,6302.49,No
+CUS-0620,Male,0,No,No,51.0,Yes,DSL,Yes,No,Month-to-month,Yes,Bank transfer,30.25,1684.63,No
+CUS-0621,Female,0,No,Yes,38.0,Yes,No,No internet service,No internet service,One year,Yes,Bank transfer,33.51,1229.87,No
+CUS-0622,Male,1,No,No,64.0,Yes,No,No internet service,No internet service,One year,Yes,Credit card,39.21,2703.13,No
+CUS-0623,Female,0,Yes,No,38.0,Yes,Fiber optic,No,Yes,One year,No,Credit card,85.07,3457.4,No
+CUS-0624,Male,0,No,No,50.0,Yes,DSL,No,No,Month-to-month,No,Bank transfer,37.5,1766.51,Yes
+CUS-0625,Male,0,Yes,No,30.0,Yes,Fiber optic,Yes,No,Month-to-month,Yes,Mailed check,98.48,3027.84,Yes
+CUS-0626,Female,0,No,Yes,51.0,Yes,No,No internet service,No internet service,Two year,Yes,Credit card,33.41,1558.29,No
+CUS-0627,Female,1,Yes,No,63.0,Yes,Fiber optic,No,Yes,Two year,No,Electronic check,98.63,6632.13,Yes
+CUS-0628,Female,0,Yes,Yes,52.0,Yes,DSL,No,No,Month-to-month,Yes,Credit card,27.96,1359.28,No
+CUS-0629,Female,1,No,Yes,38.0,Yes,Fiber optic,Yes,Yes,Two year,Yes,Electronic check,99.06,3441.17,No
+CUS-0630,Female,0,Yes,Yes,30.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Credit card,34.06,1001.41,No
+CUS-0631,Male,1,No,No,51.0,Yes,Fiber optic,Yes,No,Month-to-month,No,Bank transfer,80.84,4186.27,Yes
+CUS-0632,Female,0,Yes,Yes,5.0,Yes,Fiber optic,No,No,Month-to-month,No,Credit card,98.14,525.53,Yes
+CUS-0633,Female,0,No,Yes,,Yes,Fiber optic,Yes,No,Month-to-month,No,Bank transfer,89.69,2847.71,Yes
+CUS-0634,Male,0,Yes,Yes,4.0,Yes,Fiber optic,Yes,No,Month-to-month,Yes,Bank transfer,89.21,352.52,Yes
+CUS-0635,Male,0,No,Yes,10.0,Yes,DSL,No,No,Month-to-month,Yes,Credit card,31.33,285.76,Yes
+CUS-0636,Female,0,No,No,56.0,Yes,Fiber optic,Yes,No,Month-to-month,No,Electronic check,82.99,4878.99,No
+CUS-0637,Male,0,Yes,No,17.0,No,DSL,No,No,One year,Yes,Electronic check,29.38,505.97,Yes
+CUS-0638,Male,0,Yes,No,17.0,Yes,Fiber optic,No,No,One year,No,Credit card,96.62,1625.42,Yes
+CUS-0639,Female,0,Yes,No,69.0,Yes,DSL,No,Yes,One year,No,Bank transfer,20.31,1347.93,No
+CUS-0640,Male,0,Yes,Yes,34.0,Yes,Fiber optic,No,Yes,Two year,Yes,Electronic check,85.46,2907.03,No
+CUS-0641,Male,0,No,No,6.0,Yes,DSL,No,Yes,Month-to-month,No,Mailed check,20.05,116.42,No
+CUS-0642,Female,0,Yes,No,53.0,Yes,Fiber optic,No,Yes,One year,Yes,Bank transfer,88.31,4921.02,No
+CUS-0643,Female,0,No,Yes,66.0,Yes,No,No internet service,No internet service,One year,No,Credit card,34.57,2301.65,No
+CUS-0644,Male,0,Yes,Yes,43.0,Yes,DSL,Yes,No,Month-to-month,Yes,Bank transfer,35.98,1663.75,No
+CUS-0645,Male,0,No,Yes,23.0,Yes,DSL,Yes,No,Month-to-month,Yes,Mailed check,38.9,902.49,No
+CUS-0646,Female,0,No,Yes,55.0,Yes,DSL,No,No,Month-to-month,No,Mailed check,32.17,1676.73,No
+CUS-0647,Male,0,No,No,16.0,Yes,No,No internet service,No internet service,Two year,No,Electronic check,25.09,429.63,No
+CUS-0648,Male,0,No,No,8.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Mailed check,98.48,796.86,Yes
+CUS-0649,Male,0,Yes,Yes,4.0,Yes,Fiber optic,No,No,Two year,No,Bank transfer,95.51,359.64,Yes
+CUS-0650,Female,0,Yes,Yes,4.0,Yes,DSL,Yes,Yes,One year,Yes,Electronic check,31.49,129.07,Yes
+CUS-0651,Male,0,No,No,56.0,Yes,Fiber optic,No,Yes,One year,Yes,Mailed check,93.91,,Yes
+CUS-0652,Male,0,Yes,Yes,25.0,Yes,No,No internet service,No internet service,Two year,Yes,Electronic check,38.49,1028.53,No
+CUS-0653,Female,0,Yes,No,67.0,Yes,No,No internet service,No internet service,One year,Yes,Electronic check,34.25,2273.32,No
+CUS-0654,Male,1,No,No,67.0,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Credit card,87.37,6118.9,Yes
+CUS-0655,Male,0,Yes,Yes,27.0,Yes,DSL,Yes,Yes,Month-to-month,Yes,Electronic check,34.26,850.19,Yes
+CUS-0656,Female,0,Yes,Yes,32.0,Yes,DSL,No,No,Two year,Yes,Electronic check,20.81,652.07,Yes
+CUS-0657,Female,0,Yes,No,50.0,Yes,DSL,No,Yes,Month-to-month,Yes,Mailed check,27.73,1520.5,Yes
+CUS-0658,Female,0,No,No,61.0,Yes,DSL,Yes,No,Month-to-month,Yes,Bank transfer,28.13,1821.79,No
+CUS-0659,Female,0,Yes,No,51.0,Yes,DSL,No,No,Month-to-month,No,Bank transfer,23.34,1109.38,Yes
+CUS-0660,Male,1,No,No,19.0,No,DSL,No,No,Two year,Yes,Mailed check,20.46,371.46,No
+CUS-0661,Male,0,Yes,Yes,21.0,Yes,Fiber optic,No,No,Month-to-month,No,Bank transfer,82.67,1676.98,Yes
+CUS-0662,Female,0,Yes,No,5.0,Yes,No,No internet service,No internet service,One year,No,Electronic check,33.09,170.43,No
+CUS-0663,Female,1,Yes,No,42.0,Yes,Fiber optic,Yes,No,Month-to-month,No,Credit card,96.05,4241.45,No
+CUS-0664,Male,0,No,Yes,61.0,Yes,No,No internet service,No internet service,Month-to-month,No,Electronic check,39.76,2546.4,No
+CUS-0665,Female,0,No,No,22.0,Yes,Fiber optic,No,No,One year,No,Electronic check,86.93,1916.24,No
+CUS-0666,Male,0,Yes,Yes,21.0,Yes,DSL,No,Yes,Month-to-month,Yes,Credit card,31.99,713.55,No
+CUS-0667,Female,0,No,No,70.0,Yes,Fiber optic,Yes,No,One year,Yes,Mailed check,98.74,6824.82,No
+CUS-0668,Male,0,Yes,Yes,1.0,No,DSL,No,No,One year,No,Electronic check,23.34,21.58,No
+CUS-0669,Female,1,No,No,5.0,No,Fiber optic,No,No,Two year,Yes,Electronic check,,477.83,No
+CUS-0670,Female,0,No,No,12.0,Yes,Fiber optic,Yes,No,Month-to-month,No,Mailed check,95.1,,No
+CUS-0671,Male,0,Yes,No,46.0,Yes,No,No internet service,No internet service,Two year,Yes,Electronic check,21.78,1060.59,No
+CUS-0672,Female,0,Yes,Yes,34.0,Yes,DSL,Yes,Yes,One year,No,Electronic check,37.22,1285.4,No
+CUS-0673,Male,0,Yes,No,49.0,Yes,DSL,No,No,Two year,Yes,Bank transfer,36.26,1828.91,No
+CUS-0674,Male,0,Yes,No,45.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Mailed check,20.67,1010.25,No
+CUS-0675,Male,0,No,No,27.0,Yes,DSL,No,No,Month-to-month,Yes,Electronic check,21.82,580.7,No
+CUS-0676,Male,0,No,No,26.0,Yes,Fiber optic,No,No,Two year,No,Electronic check,80.98,,No
+CUS-0677,Male,0,No,No,47.0,Yes,Fiber optic,No,Yes,Two year,No,Credit card,86.69,4463.33,No
+CUS-0678,Female,0,Yes,No,56.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Credit card,30.19,1813.53,No
+CUS-0679,Female,0,Yes,No,63.0,Yes,No,No internet service,No internet service,Month-to-month,No,Credit card,30.65,1862.61,No
+CUS-0680,Male,0,No,No,48.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Electronic check,25.35,1207.99,No
+CUS-0681,Female,0,Yes,No,61.0,Yes,DSL,Yes,No,Month-to-month,Yes,Electronic check,38.23,2292.42,Yes
+CUS-0682,Male,0,No,No,26.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Credit card,27.37,661.68,Yes
+CUS-0683,Female,1,No,No,36.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Bank transfer,80.91,,No
+CUS-0684,Female,0,No,No,1.0,Yes,Fiber optic,Yes,Yes,Two year,Yes,Bank transfer,86.0,84.35,Yes
+CUS-0685,Female,0,No,No,8.0,Yes,DSL,No,Yes,Month-to-month,Yes,Bank transfer,30.62,263.35,No
+CUS-0686,Female,0,No,Yes,52.0,Yes,Fiber optic,No,No,One year,No,Bank transfer,88.16,4299.5,No
+CUS-0687,Male,0,Yes,No,47.0,Yes,No,No internet service,No internet service,Month-to-month,No,Mailed check,25.48,1209.03,Yes
+CUS-0688,Male,0,Yes,No,56.0,No,No,No internet service,No internet service,Month-to-month,Yes,Credit card,22.63,1146.63,No
+CUS-0689,Female,0,Yes,No,14.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Electronic check,96.38,1420.62,Yes
+CUS-0690,Female,0,No,No,28.0,No,DSL,No,No,Month-to-month,Yes,Credit card,39.92,1135.85,Yes
+CUS-0691,Male,0,No,No,2.0,Yes,Fiber optic,No,No,One year,Yes,Bank transfer,86.59,177.53,No
+CUS-0692,Female,0,No,No,26.0,Yes,No,No internet service,No internet service,Two year,Yes,Electronic check,27.63,653.97,No
+CUS-0693,Male,0,No,No,14.0,Yes,Fiber optic,Yes,Yes,Month-to-month,Yes,Mailed check,92.36,1218.31,Yes
+CUS-0694,Male,1,Yes,No,59.0,Yes,Fiber optic,No,No,Month-to-month,No,Credit card,94.37,5093.82,Yes
+CUS-0695,Male,0,Yes,No,56.0,No,DSL,No,No,Month-to-month,No,Electronic check,27.84,1493.22,No
+CUS-0696,Female,0,No,No,7.0,Yes,Fiber optic,No,No,Two year,Yes,Electronic check,98.1,704.2,No
+CUS-0697,Male,0,No,No,3.0,Yes,Fiber optic,Yes,No,One year,Yes,Bank transfer,91.2,277.22,Yes
+CUS-0698,Female,0,No,Yes,23.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Bank transfer,29.01,682.2,Yes
+CUS-0699,Male,0,Yes,Yes,18.0,Yes,Fiber optic,No,Yes,One year,No,Credit card,92.93,1689.22,No
+CUS-0700,Female,0,Yes,No,38.0,Yes,DSL,No,Yes,Two year,Yes,Mailed check,39.06,1416.9,No
+CUS-0701,Female,1,Yes,Yes,15.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Electronic check,95.89,1364.85,Yes
+CUS-0702,Female,0,No,No,64.0,Yes,DSL,No,No,Month-to-month,No,Bank transfer,20.8,1234.57,No
+CUS-0703,Male,0,No,No,28.0,Yes,No,No internet service,No internet service,Two year,Yes,Credit card,26.65,798.3,No
+CUS-0704,Male,0,Yes,No,39.0,Yes,Fiber optic,No,Yes,One year,Yes,Bank transfer,89.41,3568.22,No
+CUS-0705,Female,0,No,No,57.0,Yes,Fiber optic,Yes,No,Month-to-month,Yes,Credit card,86.29,4610.15,No
+CUS-0706,Female,0,Yes,Yes,17.0,Yes,Fiber optic,Yes,Yes,Month-to-month,Yes,Bank transfer,94.0,1494.84,Yes
+CUS-0707,Female,0,No,No,44.0,Yes,Fiber optic,Yes,Yes,Month-to-month,Yes,Mailed check,96.53,4564.2,No
+CUS-0708,Male,0,Yes,No,25.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Electronic check,94.63,2480.6,Yes
+CUS-0709,Male,1,No,No,17.0,Yes,Fiber optic,No,Yes,One year,Yes,Bank transfer,99.79,,No
+CUS-0710,Male,0,Yes,Yes,13.0,Yes,DSL,No,No,Month-to-month,Yes,Electronic check,25.45,324.69,No
+CUS-0711,Male,0,Yes,No,25.0,Yes,DSL,No,Yes,One year,No,Credit card,37.5,892.87,No
+CUS-0712,Female,0,Yes,Yes,68.0,No,DSL,No,No,Two year,Yes,Mailed check,35.33,2632.81,No
+CUS-0713,Female,0,Yes,Yes,10.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Electronic check,,924.26,Yes
+CUS-0714,Male,0,Yes,Yes,67.0,Yes,DSL,No,No,Month-to-month,No,Bank transfer,34.68,2231.44,No
+CUS-0715,Male,0,Yes,Yes,18.0,Yes,Fiber optic,Yes,No,Month-to-month,No,Electronic check,82.08,1580.14,Yes
+CUS-0716,Female,0,No,No,34.0,Yes,No,No internet service,No internet service,One year,No,Electronic check,35.79,1279.88,No
+CUS-0717,Male,0,No,Yes,8.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Credit card,30.65,235.25,Yes
+CUS-0718,Male,0,No,No,40.0,No,Fiber optic,No,No,One year,Yes,Mailed check,85.85,3383.56,No
+CUS-0719,Male,0,Yes,No,42.0,Yes,Fiber optic,No,Yes,Two year,No,Mailed check,93.12,3665.39,Yes
+CUS-0720,Male,1,Yes,No,41.0,Yes,DSL,No,No,Month-to-month,No,Electronic check,32.83,1241.32,No
+CUS-0721,Male,0,No,Yes,6.0,Yes,Fiber optic,No,Yes,Two year,Yes,Electronic check,84.19,527.65,No
+CUS-0722,Male,0,Yes,No,52.0,Yes,No,No internet service,No internet service,Two year,No,Credit card,20.61,1021.89,No
+CUS-0723,Female,0,Yes,No,26.0,Yes,DSL,Yes,No,Month-to-month,Yes,Electronic check,28.67,,No
+CUS-0724,Male,0,Yes,No,64.0,Yes,Fiber optic,Yes,Yes,Month-to-month,No,Credit card,91.39,6428.72,Yes
+CUS-0725,Male,0,Yes,Yes,59.0,Yes,No,No internet service,No internet service,Two year,No,Mailed check,37.53,2026.77,No
+CUS-0726,Female,1,Yes,No,56.0,Yes,No,No internet service,No internet service,Two year,No,Mailed check,38.56,2147.71,No
+CUS-0727,Female,0,No,No,59.0,Yes,DSL,No,No,Month-to-month,No,Credit card,30.58,1913.22,Yes
+CUS-0728,Female,0,No,No,70.0,Yes,Fiber optic,No,No,Month-to-month,No,Electronic check,95.08,7040.23,No
+CUS-0729,Male,0,No,Yes,33.0,Yes,DSL,No,No,Month-to-month,Yes,Mailed check,28.79,999.47,Yes
+CUS-0730,Female,0,No,No,53.0,Yes,DSL,Yes,No,Two year,Yes,Bank transfer,34.92,1794.87,No
+CUS-0731,Male,0,No,Yes,22.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Credit card,24.1,525.31,No
+CUS-0732,Male,0,Yes,Yes,21.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Mailed check,27.42,586.76,No
+CUS-0733,Male,1,Yes,No,70.0,Yes,Fiber optic,No,No,Two year,No,Mailed check,92.68,7102.55,No
+CUS-0734,Female,0,Yes,Yes,70.0,No,DSL,No,No,Month-to-month,Yes,Mailed check,20.36,1376.04,No
+CUS-0735,Female,0,Yes,Yes,4.0,Yes,No,No internet service,No internet service,One year,Yes,Bank transfer,34.45,149.46,No
+CUS-0736,Female,0,No,Yes,62.0,Yes,Fiber optic,No,No,Month-to-month,No,Bank transfer,96.71,5719.43,No
+CUS-0737,Female,0,No,No,62.0,Yes,Fiber optic,No,No,Two year,No,Bank transfer,87.98,5988.32,Yes
+CUS-0738,Female,0,No,No,24.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Electronic check,88.96,2207.74,Yes
+CUS-0739,Male,0,Yes,No,55.0,Yes,DSL,No,No,One year,Yes,Credit card,37.03,2021.79,No
+CUS-0740,Male,0,No,No,9.0,Yes,Fiber optic,No,No,One year,Yes,Electronic check,95.51,879.08,Yes
+CUS-0741,Male,0,Yes,Yes,3.0,Yes,Fiber optic,Yes,No,Month-to-month,No,Bank transfer,85.76,245.58,Yes
+CUS-0742,Male,0,No,No,31.0,Yes,DSL,No,No,Month-to-month,Yes,Credit card,26.48,783.8,Yes
+CUS-0743,Female,0,No,No,40.0,Yes,DSL,No,No,Month-to-month,No,Electronic check,33.58,,No
+CUS-0744,Female,1,Yes,Yes,36.0,Yes,DSL,No,No,Month-to-month,Yes,Electronic check,31.26,1038.49,No
+CUS-0745,Male,0,Yes,No,24.0,No,DSL,No,Yes,Two year,Yes,Electronic check,23.24,540.77,No
+CUS-0746,Female,0,No,No,6.0,Yes,Fiber optic,No,No,Two year,No,Bank transfer,86.2,,Yes
+CUS-0747,Female,0,No,Yes,66.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Mailed check,38.0,2562.16,Yes
+CUS-0748,Male,1,Yes,Yes,4.0,Yes,DSL,Yes,Yes,One year,Yes,Credit card,33.76,124.31,No
+CUS-0749,Male,1,No,Yes,6.0,Yes,DSL,No,Yes,One year,Yes,Bank transfer,39.72,255.11,No
+CUS-0750,Female,0,No,Yes,51.0,No,Fiber optic,No,No,Two year,Yes,Credit card,95.34,4960.92,No
+CUS-0751,Female,1,Yes,No,62.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Bank transfer,38.84,2630.04,No
+CUS-0752,Male,0,No,No,57.0,Yes,DSL,No,No,Month-to-month,Yes,Electronic check,24.32,1433.42,No
+CUS-0753,Male,0,Yes,No,66.0,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Electronic check,95.43,5889.21,Yes
+CUS-0754,Male,0,No,No,8.0,Yes,Fiber optic,Yes,Yes,Month-to-month,Yes,Mailed check,80.4,639.83,Yes
+CUS-0755,Female,0,Yes,Yes,26.0,Yes,DSL,No,No,Month-to-month,No,Mailed check,33.42,894.73,No
+CUS-0756,Male,0,No,No,51.0,Yes,DSL,No,No,Month-to-month,No,Credit card,29.39,1357.47,No
+CUS-0757,Male,0,Yes,No,45.0,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Mailed check,86.94,3532.74,Yes
+CUS-0758,Female,0,No,No,44.0,Yes,Fiber optic,No,No,One year,Yes,Mailed check,97.25,3961.84,Yes
+CUS-0759,Female,0,Yes,No,5.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Credit card,97.09,461.34,Yes
+CUS-0760,Female,0,No,No,70.0,Yes,Fiber optic,Yes,Yes,Month-to-month,Yes,Bank transfer,80.45,5552.15,No
+CUS-0761,Female,0,No,No,26.0,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Mailed check,92.19,2390.92,No
+CUS-0762,Female,0,No,No,68.0,Yes,DSL,No,Yes,Month-to-month,Yes,Bank transfer,27.36,1725.79,No
+CUS-0763,Male,0,No,Yes,19.0,Yes,Fiber optic,Yes,No,One year,Yes,Electronic check,88.31,1736.08,Yes
+CUS-0764,Male,0,No,Yes,20.0,Yes,DSL,Yes,No,Month-to-month,Yes,Mailed check,36.64,746.89,No
+CUS-0765,Female,1,No,Yes,12.0,Yes,DSL,No,No,Month-to-month,Yes,Electronic check,26.2,301.48,No
+CUS-0766,Female,0,No,No,47.0,Yes,Fiber optic,Yes,No,Month-to-month,No,Electronic check,98.86,4194.47,No
+CUS-0767,Female,0,No,No,1.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Bank transfer,23.59,21.6,No
+CUS-0768,Female,0,No,No,14.0,Yes,No,No internet service,No internet service,Month-to-month,No,Credit card,33.25,455.42,No
+CUS-0769,Female,0,Yes,No,64.0,Yes,Fiber optic,No,No,Two year,No,Mailed check,93.44,5566.3,Yes
+CUS-0770,Male,0,Yes,No,38.0,Yes,DSL,No,Yes,Month-to-month,Yes,Bank transfer,25.04,928.08,Yes
+CUS-0771,Male,0,No,No,37.0,Yes,DSL,No,No,Month-to-month,Yes,Credit card,26.5,1005.64,Yes
+CUS-0772,Male,1,Yes,Yes,11.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Electronic check,36.7,407.51,No
+CUS-0773,Male,0,No,Yes,3.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Mailed check,95.24,270.36,Yes
+CUS-0774,Female,1,No,No,33.0,Yes,Fiber optic,No,No,One year,Yes,Electronic check,86.58,2767.9,No
+CUS-0775,Male,1,Yes,No,6.0,Yes,No,No internet service,No internet service,One year,No,Electronic check,30.68,188.28,No
+CUS-0776,Female,0,No,No,50.0,Yes,Fiber optic,No,No,One year,Yes,Mailed check,81.23,4354.62,No
+CUS-0777,Female,1,No,Yes,10.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Credit card,24.17,253.94,No
+CUS-0778,Female,0,Yes,Yes,5.0,Yes,DSL,Yes,No,Month-to-month,No,Credit card,29.72,150.19,Yes
+CUS-0779,Male,0,Yes,No,23.0,Yes,Fiber optic,Yes,No,Two year,No,Mailed check,81.72,1827.79,No
+CUS-0780,Female,0,No,Yes,10.0,Yes,No,No internet service,No internet service,Two year,Yes,Mailed check,36.87,358.75,No
+CUS-0781,Male,1,Yes,Yes,44.0,Yes,DSL,No,No,Month-to-month,No,Bank transfer,34.36,1626.56,Yes
+CUS-0782,Male,1,Yes,No,,Yes,Fiber optic,Yes,No,Month-to-month,Yes,Bank transfer,98.87,179.52,No
+CUS-0783,Female,0,No,Yes,13.0,Yes,DSL,Yes,No,Month-to-month,Yes,Electronic check,33.87,483.28,No
+CUS-0784,Female,0,Yes,No,,Yes,No,No internet service,No internet service,Month-to-month,Yes,Mailed check,38.81,1603.44,No
+CUS-0785,Female,0,Yes,Yes,2.0,Yes,DSL,No,No,Month-to-month,Yes,Credit card,31.09,64.43,No
+CUS-0786,Male,0,No,Yes,65.0,Yes,Fiber optic,No,No,Month-to-month,No,Electronic check,92.0,5427.45,Yes
+CUS-0787,Female,0,Yes,No,63.0,No,DSL,Yes,No,One year,Yes,Electronic check,39.54,2543.6,No
+CUS-0788,Male,0,Yes,No,17.0,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Electronic check,92.84,1573.48,Yes
+CUS-0789,Female,0,No,No,9.0,Yes,DSL,No,Yes,Month-to-month,Yes,Electronic check,20.62,170.95,Yes
+CUS-0790,Female,0,No,No,15.0,Yes,DSL,No,No,Month-to-month,Yes,Credit card,34.48,494.23,Yes
+CUS-0791,Male,1,No,Yes,24.0,Yes,Fiber optic,Yes,No,Two year,Yes,Electronic check,98.11,2538.45,No
+CUS-0792,Male,0,Yes,No,38.0,No,No,No internet service,No internet service,Month-to-month,Yes,Mailed check,35.91,1378.22,No
+CUS-0793,Male,0,No,Yes,35.0,Yes,DSL,No,No,One year,No,Bank transfer,31.68,1089.6,No
+CUS-0794,Male,0,No,No,49.0,Yes,DSL,No,Yes,Month-to-month,Yes,Credit card,33.43,,No
+CUS-0795,Male,1,Yes,No,69.0,Yes,Fiber optic,Yes,No,One year,Yes,Mailed check,99.8,7181.1,No
+CUS-0796,Male,1,No,No,62.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Mailed check,81.81,5278.0,Yes
+CUS-0797,Female,0,No,No,60.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Mailed check,33.34,2046.03,No
+CUS-0798,Female,0,No,Yes,,Yes,DSL,No,No,Month-to-month,Yes,Bank transfer,25.67,1286.13,Yes
+CUS-0799,Male,0,No,Yes,9.0,No,Fiber optic,Yes,No,Month-to-month,No,Bank transfer,92.8,824.14,Yes
+CUS-0800,Female,0,Yes,No,34.0,Yes,DSL,No,Yes,Month-to-month,No,Bank transfer,32.15,1113.49,Yes
+CUS-0801,Male,0,No,No,35.0,Yes,DSL,Yes,No,One year,Yes,Mailed check,23.07,764.4,Yes
+CUS-0802,Female,0,No,No,1.0,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Bank transfer,84.13,91.55,Yes
+CUS-0803,Female,0,Yes,Yes,40.0,Yes,Fiber optic,No,No,Month-to-month,No,Electronic check,92.43,3762.86,No
+CUS-0804,Male,0,No,No,64.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Bank transfer,82.56,5084.31,Yes
+CUS-0805,Male,0,Yes,Yes,22.0,Yes,DSL,No,No,One year,Yes,Credit card,25.3,551.0,Yes
+CUS-0806,Male,0,Yes,No,60.0,Yes,Fiber optic,No,No,Two year,Yes,Mailed check,96.7,6156.72,Yes
+CUS-0807,Female,0,Yes,No,64.0,Yes,Fiber optic,No,No,One year,No,Mailed check,86.54,5163.73,No
+CUS-0808,Male,1,No,No,11.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Electronic check,29.76,313.8,No
+CUS-0809,Female,0,Yes,Yes,14.0,No,DSL,No,Yes,One year,No,Bank transfer,38.82,562.99,No
+CUS-0810,Male,1,Yes,No,60.0,Yes,DSL,No,No,Two year,No,Bank transfer,24.54,1418.07,No
+CUS-0811,Female,0,Yes,No,30.0,Yes,Fiber optic,No,No,Two year,Yes,Credit card,87.79,2787.77,No
+CUS-0812,Female,0,No,No,35.0,Yes,Fiber optic,No,No,Month-to-month,No,Electronic check,92.13,2986.23,No
+CUS-0813,Male,0,No,No,37.0,Yes,DSL,No,No,Month-to-month,No,Credit card,35.11,1367.32,No
+CUS-0814,Female,0,No,No,5.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Credit card,38.03,173.73,No
+CUS-0815,Female,0,No,No,26.0,Yes,DSL,No,Yes,Month-to-month,Yes,Mailed check,38.31,898.96,No
+CUS-0816,Male,0,No,No,62.0,Yes,No,No internet service,No internet service,One year,Yes,Mailed check,35.53,2378.31,No
+CUS-0817,Female,0,No,Yes,4.0,Yes,DSL,No,No,Month-to-month,Yes,Bank transfer,24.57,99.88,No
+CUS-0818,Male,0,No,Yes,42.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Bank transfer,80.5,3280.81,No
+CUS-0819,Male,0,Yes,No,18.0,Yes,No,No internet service,No internet service,One year,Yes,Credit card,27.68,471.59,Yes
+CUS-0820,Male,0,Yes,Yes,40.0,Yes,DSL,Yes,Yes,Two year,Yes,Bank transfer,22.83,934.55,No
+CUS-0821,Male,0,Yes,No,39.0,Yes,No,No internet service,No internet service,Month-to-month,No,Credit card,34.21,1336.59,No
+CUS-0822,Female,0,Yes,No,14.0,Yes,Fiber optic,No,Yes,One year,Yes,Bank transfer,93.22,1433.39,Yes
+CUS-0823,Female,0,No,No,32.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Bank transfer,20.88,732.73,No
+CUS-0824,Female,0,Yes,No,51.0,Yes,Fiber optic,No,Yes,Two year,Yes,Mailed check,96.73,5066.45,No
+CUS-0825,Male,1,Yes,No,38.0,Yes,DSL,No,No,Two year,Yes,Mailed check,24.97,938.02,No
+CUS-0826,Female,0,Yes,No,23.0,Yes,DSL,Yes,Yes,Month-to-month,Yes,Mailed check,28.64,657.55,Yes
+CUS-0827,Female,0,Yes,Yes,63.0,No,DSL,No,No,One year,Yes,Mailed check,33.36,2178.38,No
+CUS-0828,Male,1,No,No,15.0,Yes,DSL,Yes,No,Two year,Yes,Electronic check,28.59,394.68,No
+CUS-0829,Male,0,No,Yes,25.0,No,DSL,No,No,Month-to-month,No,Mailed check,28.83,696.01,No
+CUS-0830,Female,0,No,No,17.0,Yes,DSL,No,No,Month-to-month,No,Electronic check,21.31,331.5,No
+CUS-0831,Male,0,Yes,No,66.0,Yes,Fiber optic,Yes,No,One year,Yes,Mailed check,88.03,5314.23,No
+CUS-0832,Male,0,No,No,53.0,Yes,No,No internet service,No internet service,Month-to-month,No,Bank transfer,35.3,1757.09,No
+CUS-0833,Male,0,Yes,Yes,51.0,Yes,DSL,No,No,Month-to-month,No,Credit card,38.3,1947.54,No
+CUS-0834,Male,0,No,No,39.0,Yes,DSL,No,No,Two year,Yes,Bank transfer,28.27,,No
+CUS-0835,Female,0,No,No,51.0,Yes,Fiber optic,Yes,Yes,One year,No,Bank transfer,88.47,4498.88,No
+CUS-0836,Male,0,No,Yes,70.0,No,DSL,No,Yes,Month-to-month,No,Electronic check,34.05,2305.07,No
+CUS-0837,Male,1,No,Yes,6.0,Yes,DSL,Yes,No,Month-to-month,Yes,Mailed check,38.86,213.68,Yes
+CUS-0838,Male,0,No,Yes,67.0,Yes,DSL,No,No,Month-to-month,Yes,Credit card,25.34,1714.86,Yes
+CUS-0839,Male,0,Yes,No,7.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Credit card,28.8,192.38,Yes
+CUS-0840,Male,0,No,Yes,51.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Mailed check,35.92,1874.03,Yes
+CUS-0841,Male,0,Yes,No,42.0,Yes,Fiber optic,Yes,Yes,One year,No,Electronic check,92.19,4241.51,No
+CUS-0842,Male,0,Yes,No,64.0,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Electronic check,82.21,4852.43,Yes
+CUS-0843,Male,0,Yes,No,15.0,No,Fiber optic,No,No,Month-to-month,No,Electronic check,92.55,1308.32,No
+CUS-0844,Female,0,Yes,Yes,29.0,Yes,Fiber optic,Yes,Yes,Month-to-month,No,Credit card,83.73,2415.1,No
+CUS-0845,Male,1,Yes,No,33.0,Yes,Fiber optic,No,No,Two year,No,Electronic check,90.2,3255.58,No
+CUS-0846,Female,0,No,No,27.0,Yes,Fiber optic,No,No,Month-to-month,No,Electronic check,90.58,2578.61,No
+CUS-0847,Male,0,No,No,36.0,Yes,DSL,Yes,Yes,Month-to-month,Yes,Credit card,37.52,1458.3,Yes
+CUS-0848,Male,0,No,No,29.0,Yes,DSL,Yes,No,Month-to-month,Yes,Credit card,29.25,820.04,No
+CUS-0849,Male,0,No,No,38.0,Yes,Fiber optic,No,Yes,One year,No,Bank transfer,85.59,,Yes
+CUS-0850,Male,0,Yes,No,57.0,Yes,No,No internet service,No internet service,One year,Yes,Credit card,24.62,1291.87,No
+CUS-0851,Female,0,No,No,27.0,Yes,Fiber optic,Yes,Yes,Month-to-month,Yes,Mailed check,97.49,2396.89,No
+CUS-0852,Male,0,No,No,55.0,Yes,No,No internet service,No internet service,Month-to-month,No,Credit card,23.42,1379.71,No
+CUS-0853,Male,0,Yes,Yes,33.0,No,No,No internet service,No internet service,Month-to-month,No,Credit card,28.52,1021.58,No
+CUS-0854,Female,0,Yes,Yes,68.0,Yes,DSL,No,No,Month-to-month,Yes,Electronic check,23.74,1482.13,No
+CUS-0855,Female,0,No,Yes,66.0,Yes,Fiber optic,No,No,Month-to-month,No,Bank transfer,95.47,5813.86,Yes
+CUS-0856,Male,0,No,No,,Yes,Fiber optic,No,Yes,Month-to-month,No,Electronic check,89.49,811.35,Yes
+CUS-0857,Female,0,Yes,No,5.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Bank transfer,27.02,124.41,No
+CUS-0858,Female,0,No,No,38.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Electronic check,27.22,974.25,No
+CUS-0859,Female,0,No,No,13.0,Yes,Fiber optic,No,No,Month-to-month,No,Mailed check,97.04,1380.12,No
+CUS-0860,Male,0,No,No,31.0,Yes,DSL,Yes,Yes,One year,Yes,Electronic check,31.08,995.83,No
+CUS-0861,Male,0,No,No,47.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Electronic check,34.36,1704.89,No
+CUS-0862,Male,0,Yes,No,52.0,Yes,DSL,No,Yes,Month-to-month,Yes,Mailed check,37.94,2081.84,No
+CUS-0863,Female,0,Yes,No,56.0,Yes,No,No internet service,No internet service,Month-to-month,No,Mailed check,38.03,2144.62,No
+CUS-0864,Male,1,Yes,Yes,15.0,Yes,No,No internet service,No internet service,Two year,Yes,Credit card,26.57,422.26,No
+CUS-0865,Female,0,No,Yes,29.0,Yes,Fiber optic,No,No,Two year,Yes,Electronic check,99.05,2927.49,No
+CUS-0866,Male,1,No,Yes,,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Mailed check,80.5,620.11,Yes
+CUS-0867,Male,0,No,No,5.0,Yes,Fiber optic,No,No,Month-to-month,No,Mailed check,87.54,443.05,No
+CUS-0868,Female,0,No,No,29.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Credit card,,2858.71,Yes
+CUS-0869,Male,0,No,No,47.0,No,DSL,Yes,Yes,Month-to-month,Yes,Bank transfer,25.49,1275.53,Yes
+CUS-0870,Female,0,Yes,Yes,68.0,Yes,Fiber optic,Yes,No,Month-to-month,No,Mailed check,85.46,6371.17,No
+CUS-0871,Female,1,No,No,45.0,No,No,No internet service,No internet service,One year,Yes,Mailed check,26.05,1151.39,No
+CUS-0872,Male,0,No,No,2.0,Yes,No,No internet service,No internet service,Month-to-month,No,Electronic check,32.25,67.9,No
+CUS-0873,Female,0,Yes,Yes,27.0,Yes,DSL,Yes,No,Two year,No,Credit card,28.77,714.61,No
+CUS-0874,Male,0,No,No,36.0,Yes,No,No internet service,No internet service,Month-to-month,No,Electronic check,34.53,1311.9,No
+CUS-0875,Male,0,Yes,Yes,36.0,No,Fiber optic,No,No,Two year,Yes,Bank transfer,97.9,3433.76,Yes
+CUS-0876,Female,0,Yes,No,26.0,Yes,DSL,No,Yes,Two year,No,Credit card,33.48,790.29,No
+CUS-0877,Male,0,Yes,No,43.0,Yes,DSL,Yes,No,Month-to-month,No,Electronic check,24.09,1007.54,Yes
+CUS-0878,Female,0,Yes,Yes,27.0,Yes,DSL,No,Yes,Month-to-month,No,Mailed check,38.65,1066.64,No
+CUS-0879,Male,0,Yes,Yes,69.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Mailed check,25.29,1612.13,No
+CUS-0880,Male,0,No,No,20.0,Yes,Fiber optic,Yes,No,Month-to-month,No,Credit card,83.0,,Yes
+CUS-0881,Male,0,Yes,No,11.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Mailed check,81.8,823.8,Yes
+CUS-0882,Male,1,Yes,No,38.0,Yes,DSL,No,Yes,One year,Yes,Electronic check,31.27,1290.45,No
+CUS-0883,Male,1,No,No,6.0,Yes,Fiber optic,Yes,No,Month-to-month,Yes,Credit card,82.28,514.13,Yes
+CUS-0884,Female,0,No,No,23.0,Yes,DSL,No,No,Two year,No,Mailed check,22.78,506.1,No
+CUS-0885,Female,0,Yes,No,47.0,Yes,Fiber optic,Yes,Yes,Month-to-month,Yes,Mailed check,86.0,3953.68,Yes
+CUS-0886,Female,0,No,No,46.0,Yes,Fiber optic,No,No,Two year,Yes,Bank transfer,85.63,4128.69,Yes
+CUS-0887,Female,0,No,No,12.0,Yes,DSL,No,No,Month-to-month,No,Bank transfer,32.08,392.77,No
+CUS-0888,Female,0,Yes,No,13.0,Yes,No,No internet service,No internet service,One year,Yes,Credit card,36.33,488.5,No
+CUS-0889,Female,1,Yes,No,62.0,Yes,DSL,Yes,No,Month-to-month,No,Bank transfer,35.23,2135.84,No
+CUS-0890,Male,0,No,No,60.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Electronic check,85.25,5102.53,No
+CUS-0891,Male,1,Yes,No,43.0,Yes,Fiber optic,No,Yes,Two year,Yes,Mailed check,84.91,4008.84,No
+CUS-0892,Female,0,Yes,Yes,68.0,Yes,Fiber optic,No,No,Month-to-month,No,Mailed check,99.32,6367.34,No
+CUS-0893,Female,0,No,No,5.0,Yes,DSL,No,Yes,One year,No,Mailed check,20.16,99.14,No
+CUS-0894,Male,0,Yes,No,37.0,Yes,DSL,No,No,One year,Yes,Credit card,37.59,1332.92,No
+CUS-0895,Male,1,Yes,Yes,31.0,Yes,No,No internet service,No internet service,Month-to-month,No,Credit card,23.99,783.12,No
+CUS-0896,Male,0,Yes,No,9.0,Yes,DSL,No,No,Month-to-month,Yes,Bank transfer,38.95,369.06,Yes
+CUS-0897,Female,0,Yes,No,51.0,No,No,No internet service,No internet service,One year,Yes,Mailed check,26.85,1312.51,No
+CUS-0898,Female,0,Yes,Yes,29.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Mailed check,28.81,765.54,No
+CUS-0899,Female,0,No,No,40.0,Yes,DSL,No,No,One year,Yes,Mailed check,,1232.16,No
+CUS-0900,Male,0,No,Yes,41.0,Yes,DSL,No,No,Two year,Yes,Mailed check,31.75,1282.86,No
+CUS-0901,Male,0,Yes,Yes,11.0,No,Fiber optic,No,Yes,Month-to-month,Yes,Mailed check,86.36,932.92,Yes
+CUS-0902,Female,0,No,No,23.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Electronic check,31.08,784.66,Yes
+CUS-0903,Female,0,Yes,No,1.0,Yes,No,No internet service,No internet service,One year,Yes,Mailed check,34.61,34.4,No
+CUS-0904,Male,0,Yes,Yes,46.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Electronic check,80.85,3537.92,No
+CUS-0905,Male,0,Yes,No,21.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Mailed check,20.22,457.84,No
+CUS-0906,Male,0,Yes,No,36.0,Yes,DSL,No,No,Month-to-month,No,Credit card,29.16,1047.88,No
+CUS-0907,Male,0,Yes,Yes,54.0,Yes,No,No internet service,No internet service,Month-to-month,No,Credit card,22.64,1246.81,Yes
+CUS-0908,Female,0,No,Yes,57.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Electronic check,33.29,1744.08,No
+CUS-0909,Male,0,No,No,1.0,Yes,DSL,No,Yes,Month-to-month,No,Mailed check,24.28,23.71,No
+CUS-0910,Male,1,Yes,Yes,63.0,Yes,DSL,Yes,Yes,One year,No,Credit card,28.66,1966.0,No
+CUS-0911,Male,0,No,No,54.0,Yes,DSL,Yes,Yes,Month-to-month,Yes,Credit card,23.95,1316.45,No
+CUS-0912,Female,0,Yes,No,55.0,No,DSL,Yes,No,Month-to-month,Yes,Mailed check,30.97,1650.38,Yes
+CUS-0913,Female,0,No,No,40.0,Yes,No,No internet service,No internet service,Two year,No,Mailed check,22.32,915.24,No
+CUS-0914,Male,0,Yes,Yes,15.0,Yes,Fiber optic,No,Yes,One year,Yes,Credit card,80.46,1305.97,No
+CUS-0915,Male,0,No,No,21.0,Yes,DSL,No,Yes,Two year,No,Mailed check,21.02,421.47,No
+CUS-0916,Male,0,Yes,No,47.0,Yes,Fiber optic,No,No,Month-to-month,No,Bank transfer,99.09,4662.0,Yes
+CUS-0917,Female,0,Yes,No,53.0,No,No,No internet service,No internet service,One year,No,Mailed check,22.85,1322.15,No
+CUS-0918,Female,0,No,Yes,,Yes,Fiber optic,No,Yes,Month-to-month,No,Credit card,94.17,792.0,Yes
+CUS-0919,Female,0,No,Yes,52.0,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Credit card,81.36,4416.59,Yes
+CUS-0920,Male,0,Yes,No,57.0,Yes,DSL,No,Yes,Month-to-month,Yes,Electronic check,22.16,1292.04,Yes
+CUS-0921,Female,0,No,No,26.0,Yes,No,No internet service,No internet service,Month-to-month,No,Bank transfer,30.18,812.88,No
+CUS-0922,Male,0,Yes,Yes,41.0,Yes,No,No internet service,No internet service,Two year,Yes,Credit card,29.3,1165.55,No
+CUS-0923,Male,0,No,No,35.0,Yes,DSL,No,No,Month-to-month,No,Bank transfer,39.03,,Yes
+CUS-0924,Male,0,No,Yes,63.0,Yes,DSL,No,Yes,One year,No,Mailed check,38.9,2540.99,No
+CUS-0925,Female,1,Yes,No,25.0,No,DSL,Yes,No,One year,No,Credit card,35.59,839.13,No
+CUS-0926,Male,0,No,No,38.0,No,DSL,Yes,Yes,One year,No,Electronic check,32.04,,No
+CUS-0927,Female,0,No,No,2.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Credit card,89.1,167.09,Yes
+CUS-0928,Female,0,Yes,No,7.0,Yes,No,No internet service,No internet service,One year,Yes,Electronic check,27.12,171.17,No
+CUS-0929,Male,0,No,No,34.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Bank transfer,98.94,3680.21,Yes
+CUS-0930,Male,0,Yes,No,17.0,Yes,No,No internet service,No internet service,Month-to-month,No,Electronic check,32.06,537.58,Yes
+CUS-0931,Female,0,Yes,No,,Yes,Fiber optic,No,No,Two year,No,Mailed check,91.58,4307.59,Yes
+CUS-0932,Male,0,Yes,No,59.0,Yes,Fiber optic,No,No,Month-to-month,No,Mailed check,84.64,4634.53,No
+CUS-0933,Female,0,Yes,No,,Yes,Fiber optic,No,No,Month-to-month,Yes,Mailed check,80.93,4199.55,No
+CUS-0934,Male,0,Yes,Yes,54.0,Yes,DSL,Yes,No,Two year,Yes,Credit card,38.9,1974.97,No
+CUS-0935,Female,0,No,Yes,24.0,Yes,Fiber optic,No,No,Month-to-month,No,Mailed check,86.27,2190.6,No
+CUS-0936,Female,0,Yes,No,25.0,Yes,Fiber optic,Yes,No,One year,Yes,Mailed check,88.85,2347.29,No
+CUS-0937,Female,1,Yes,No,71.0,Yes,DSL,Yes,No,Month-to-month,Yes,Credit card,,1459.97,No
+CUS-0938,Female,0,No,No,52.0,Yes,Fiber optic,No,No,Month-to-month,No,Bank transfer,96.74,5445.06,Yes
+CUS-0939,Male,0,No,Yes,70.0,Yes,Fiber optic,No,Yes,Month-to-month,No,Mailed check,80.55,5294.13,Yes
+CUS-0940,Male,1,No,No,33.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Mailed check,36.68,1237.79,Yes
+CUS-0941,Female,0,Yes,No,49.0,Yes,Fiber optic,Yes,No,Month-to-month,No,Credit card,82.81,4451.8,Yes
+CUS-0942,Female,0,Yes,No,29.0,Yes,No,No internet service,No internet service,One year,Yes,Bank transfer,37.73,1177.85,No
+CUS-0943,Male,0,Yes,No,63.0,Yes,Fiber optic,No,No,Month-to-month,No,Bank transfer,94.6,6504.01,Yes
+CUS-0944,Male,0,No,No,22.0,Yes,No,No internet service,No internet service,Two year,Yes,Bank transfer,23.29,496.25,No
+CUS-0945,Male,0,Yes,No,26.0,Yes,Fiber optic,Yes,No,Month-to-month,Yes,Credit card,91.32,2187.02,No
+CUS-0946,Male,0,No,No,,Yes,No,No internet service,No internet service,Month-to-month,No,Electronic check,26.25,689.19,No
+CUS-0947,Male,0,Yes,Yes,49.0,Yes,Fiber optic,No,No,One year,Yes,Electronic check,83.56,4094.85,No
+CUS-0948,Male,1,No,No,71.0,Yes,Fiber optic,Yes,No,Two year,No,Mailed check,97.18,7304.42,No
+CUS-0949,Female,0,Yes,No,,Yes,Fiber optic,No,No,Month-to-month,No,Mailed check,88.07,4013.48,Yes
+CUS-0950,Male,0,Yes,No,20.0,No,Fiber optic,No,No,One year,No,Mailed check,,1815.61,Yes
+CUS-0951,Male,0,Yes,Yes,63.0,No,DSL,Yes,No,Two year,No,Electronic check,23.4,1422.18,No
+CUS-0952,Female,0,No,No,61.0,Yes,DSL,Yes,Yes,Month-to-month,Yes,Credit card,27.66,1633.67,Yes
+CUS-0953,Male,0,No,No,49.0,Yes,DSL,Yes,No,Two year,No,Mailed check,37.43,,No
+CUS-0954,Male,1,Yes,Yes,71.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Credit card,27.26,1922.69,No
+CUS-0955,Male,0,Yes,No,1.0,Yes,DSL,Yes,No,One year,Yes,Mailed check,39.03,41.47,Yes
+CUS-0956,Male,0,Yes,No,13.0,No,DSL,No,No,Two year,No,Credit card,38.93,471.26,Yes
+CUS-0957,Male,0,No,No,51.0,Yes,Fiber optic,No,No,One year,Yes,Credit card,,4473.07,No
+CUS-0958,Female,1,Yes,No,56.0,Yes,DSL,No,Yes,Month-to-month,No,Electronic check,23.55,1203.86,Yes
+CUS-0959,Male,0,Yes,Yes,62.0,Yes,Fiber optic,Yes,Yes,Month-to-month,Yes,Credit card,97.25,5660.56,Yes
+CUS-0960,Female,0,Yes,No,32.0,No,DSL,Yes,No,Two year,No,Bank transfer,27.86,,No
+CUS-0961,Female,0,Yes,Yes,30.0,Yes,No,No internet service,No internet service,Month-to-month,No,Electronic check,20.09,645.48,No
+CUS-0962,Male,1,No,No,29.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Mailed check,,702.37,Yes
+CUS-0963,Female,1,No,No,49.0,Yes,No,No internet service,No internet service,One year,Yes,Electronic check,31.95,1511.44,No
+CUS-0964,Male,1,Yes,No,45.0,Yes,Fiber optic,Yes,No,Month-to-month,No,Bank transfer,95.99,4351.62,Yes
+CUS-0965,Female,0,Yes,Yes,30.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Bank transfer,82.67,2337.03,Yes
+CUS-0966,Female,0,No,No,16.0,Yes,DSL,No,No,Month-to-month,Yes,Credit card,22.21,377.47,No
+CUS-0967,Male,0,No,No,40.0,No,DSL,Yes,Yes,Month-to-month,Yes,Bank transfer,38.44,1621.75,No
+CUS-0968,Male,1,Yes,No,19.0,No,DSL,No,Yes,One year,Yes,Bank transfer,35.02,618.18,No
+CUS-0969,Male,0,No,No,18.0,Yes,Fiber optic,No,Yes,One year,Yes,Bank transfer,91.8,1640.45,No
+CUS-0970,Male,0,No,No,1.0,Yes,Fiber optic,Yes,Yes,Month-to-month,No,Bank transfer,95.38,100.62,No
+CUS-0971,Male,0,Yes,No,47.0,Yes,Fiber optic,No,Yes,Two year,Yes,Mailed check,88.58,4027.81,No
+CUS-0972,Female,0,No,No,66.0,Yes,DSL,No,Yes,Two year,No,Mailed check,35.17,2383.01,No
+CUS-0973,Female,0,No,Yes,38.0,Yes,Fiber optic,Yes,No,One year,No,Electronic check,87.44,3023.82,No
+CUS-0974,Female,1,Yes,Yes,51.0,Yes,Fiber optic,No,No,Month-to-month,No,Credit card,,4422.98,Yes
+CUS-0975,Female,1,Yes,No,63.0,Yes,Fiber optic,No,No,One year,Yes,Mailed check,94.58,,No
+CUS-0976,Female,0,No,No,4.0,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Bank transfer,88.39,376.94,No
+CUS-0977,Female,0,Yes,No,1.0,Yes,DSL,Yes,No,One year,Yes,Credit card,39.63,38.48,No
+CUS-0978,Female,0,No,No,8.0,Yes,No,No internet service,No internet service,One year,No,Mailed check,26.99,,No
+CUS-0979,Male,0,Yes,Yes,29.0,Yes,Fiber optic,No,Yes,Month-to-month,Yes,Electronic check,98.43,3049.08,No
+CUS-0980,Male,0,No,No,55.0,Yes,DSL,No,No,Two year,Yes,Bank transfer,38.66,1934.99,No
+CUS-0981,Female,0,Yes,Yes,3.0,Yes,DSL,Yes,Yes,Month-to-month,Yes,Credit card,24.84,72.98,No
+CUS-0982,Female,0,No,Yes,,Yes,Fiber optic,No,No,One year,Yes,Mailed check,95.96,2990.88,No
+CUS-0983,Male,1,No,No,10.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Credit card,28.66,274.26,No
+CUS-0984,Male,0,No,Yes,34.0,Yes,Fiber optic,No,No,Two year,No,Mailed check,98.35,3619.27,No
+CUS-0985,Male,0,Yes,No,55.0,Yes,DSL,No,No,Month-to-month,Yes,Electronic check,29.0,1675.05,No
+CUS-0986,Male,0,Yes,Yes,32.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Bank transfer,34.89,1019.11,No
+CUS-0987,Female,0,No,No,50.0,Yes,Fiber optic,Yes,No,Month-to-month,Yes,Electronic check,89.34,4658.8,No
+CUS-0988,Male,0,No,No,7.0,Yes,Fiber optic,No,No,Month-to-month,No,Bank transfer,84.56,595.15,Yes
+CUS-0989,Female,0,Yes,Yes,8.0,Yes,Fiber optic,Yes,Yes,Month-to-month,Yes,Bank transfer,83.99,725.79,Yes
+CUS-0990,Female,0,Yes,No,65.0,Yes,DSL,No,Yes,One year,Yes,Credit card,28.51,1783.82,No
+CUS-0991,Female,1,Yes,No,57.0,Yes,Fiber optic,Yes,No,Month-to-month,Yes,Mailed check,95.11,5501.68,No
+CUS-0992,Male,0,Yes,No,67.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Electronic check,92.1,,Yes
+CUS-0993,Male,0,Yes,Yes,59.0,Yes,No,No internet service,No internet service,Month-to-month,No,Electronic check,33.77,1988.27,Yes
+CUS-0994,Female,0,Yes,No,54.0,Yes,Fiber optic,No,Yes,Two year,Yes,Electronic check,85.65,4584.5,No
+CUS-0995,Female,0,No,No,67.0,Yes,Fiber optic,No,No,One year,No,Credit card,89.63,5651.66,No
+CUS-0996,Female,0,Yes,No,51.0,Yes,Fiber optic,Yes,Yes,One year,No,Credit card,80.89,4336.37,No
+CUS-0997,Male,0,No,No,8.0,Yes,No,No internet service,No internet service,One year,No,Credit card,36.35,287.97,No
+CUS-0998,Female,0,Yes,No,34.0,Yes,No,No internet service,No internet service,Month-to-month,Yes,Bank transfer,39.8,1477.29,Yes
+CUS-0999,Male,1,Yes,No,35.0,Yes,Fiber optic,No,No,Month-to-month,Yes,Electronic check,,2937.32,Yes
+CUS-1000,Female,0,No,No,32.0,Yes,Fiber optic,No,Yes,Month-to-month,No,Bank transfer,80.22,2660.86,Yes
